@@ -1,0 +1,12 @@
+{% include header.html %}
+<div class="row">
+	<div class="col-md-3" name="sidebar">
+		{% include post-sidebar.html %}
+	</div>
+	<div class="col-md-9" name="blog-posts">
+		<h3>&#60;{{ page.title | downcase }}&#62;</h3>
+		{{ content }}
+		<p>
+	</div>
+</div>
+{% include footer.html %}

@@ -1,0 +1,14 @@
+---
+layout: blog
+title: Blog
+sidebar-header: blog
+---
+<div class="col-md-9" name="blog-posts">
+<h3>&#60;posts&#62;</h3>
+<ul>
+	{% for post in site.posts %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
+<h3>&#60;/posts&#62;</h3>
+</div>

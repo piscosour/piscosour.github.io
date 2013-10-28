@@ -1,0 +1,16 @@
+---
+layout: blog
+title: Blog
+sidebar-header: blog
+---
+<div class="col-md-9" name="blog-posts">
+<h3>&#60;posts&#62;</h3>
+<ul class="list-unstyled">
+	{% for post in site.posts %}
+		{% if post.lang == "en" %}
+			<li><p>[{{ post.date | date_to_string }}]<br /><a href="{{ post.url }}"><span class="lead">{{ post.title }}</span></a><br />{{ post.excerpt }} <a href="{{ post.url }}">(...)</a></p><br /></li>
+		{% endif %}	
+	{% endfor %}
+</ul>
+<h3>&#60;/posts&#62;</h3>
+</div>
