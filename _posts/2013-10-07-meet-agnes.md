@@ -1,0 +1,37 @@
+---
+layout: post
+title: Meet Agnes
+lang: en
+sidebar-header: blog
+excerpt: Digital games have always received considerable influence from the science fiction world. Even really early games, like perhaps Space Invaders, in elementary ways were already drawing inspiration from sci-fi themes, and the trend has remained over time. One of the most interesting examples I can think of is the Portal games by Valve Software, which develop a very unconventional form of narrative&#58; lacking any cutscenes or narrative interludes to provide the player with explanations about what’s going on, the depth of the world in which you abruptly find yourself in is provided bit by bit by GLadOs, an initially friendly artificial intelligence which leads the protagonist through a series of physical test chambers in an otherwise deserted scientific facility.
+tags: [science fiction, storytelling, design, fabrication, projects, MIT Media Lab, SciFi2SciFab, Portal, artificial intelligence]
+---
+([Originally posted in the SciFi2SciFab blog](http://scifi2scifab.media.mit.edu/2013/10/07/meet-agnes/))
+
+\[Warning: This post contains spoilers related to the Portal and Portal 2 games.\]
+
+Digital games have always received considerable influence from the science fiction world. Even really early games, like perhaps Space Invaders, in elementary ways were already drawing inspiration from sci-fi themes, and the trend has remained over time. One of the most interesting examples I can think of is the Portal games by Valve Software, which develop a very unconventional form of narrative: lacking any cutscenes or narrative interludes to provide the player with explanations about what’s going on, the depth of the world in which you abruptly find yourself in is provided bit by bit by GLadOs, an initially friendly artificial intelligence which leads the protagonist through a series of physical test chambers in an otherwise deserted scientific facility.
+
+GLadOs controls the Aperture Laboratories facility and all of its contents, and as you progress through the first game she begins to act increasingly oddly, until you eventually find out she’s responsible for killing everyone in the facility with a neurotoxin gas. GLadOs appears to be driven solely by the urge to continue scientific testing of the Portal gun, and indeed, as soon as the player character completes the final testing sequence, she attempts to kill you (something you manage to escape to ultimately confront, and destroy, the GLadOs core).
+
+<img alt="GLadOS’s main unit" src="/files/glados.jpg" width="100%" />
+
+GLadOs, an experiment from Aperture Laboratories herself, was fitted with a sort of “fail-safe” mechanism in the form of personality cores. The various sides of her personality were split into multiple physical cores which could be attached or detached from the main unit, including cores for logical processing, morality, rage, and in Portal 2, an actual stupidity core – Wheatley – whose design was intended to stop GLadOs from taking over control of everything.
+
+<img alt="Some of the GLadOs personality cores" src="/files/personality_cores.png" width="60%" />
+
+My SciFi2SciFab project is an attempt to reconstruct a version of GLadOs (without the murderous desires, of course), which I’m calling Agnes. GLadOs falls into a long and rich tradition of crazy robots which includes some hallmarks as HAL9000 from the 2001: A Space Odyssey novel and film. But it is also a very interesting reflection on natural and artificial intelligence: in the Portal 2 game, it is revealed that GLadOs was actually the result of transferring the consciousness of a living person on to a machine, which then went on to become a little bit insane because of the transformation and the sudden realisation she no longer had any human limits.
+
+So I’m interested to see if I can put together a functional enough replica that will allow for some interaction and, especially, that will be able to pass for a playful robot despite not having full artificial intelligence at its disposal. Agnes is then made up of two related components: a software side which simulates the user interaction and provides vocal feedback based on user input, and how this feedback is provided changes based on the active “personality core” Agnes is running with. The intention is to make multiple cores available which can be physically switched, just like with GLadOs, but with each of them generating changes in tone and address rather than in criminal tendencies. Agnes cores will move interactions across a “politeness spectrum” where some cores will be more agreeable and nicer than others.
+
+The other side of Agnes is the hardware component, a version of the hanging mechanical arm seen in the picture above providing a material interface to the pseudo AI. The arm will be fitted with a sensors allowing it to detect presences standing in front of it, and Agnes will then lock on to them and follow them around as they move within her operational range. I’ve wanted so far to preserve the original design of having Agnes hanging from above, which I’m also thinking would turn into a really cool application if you had a more evolved version coupled to rails along the ceiling of a building, to have your own version of Agnes following you around and providing helpful information and assistance.
+
+<img alt="The original arm design for Agnes" src="/files/agnes_sketch.jpg" width="100%" />
+
+The more I look for inspiration and ideas for the project, the more I’m drawn to realise how small design decisions going into Agnes have intense narrative charge. Not only in terms of associations one can make, but in terms of conveying the notion of an imaginary designer making imaginary decisions, and the object itself, Agnes, being the conveyor of those decisions and that background world invisible to the user – very much like Portal, the game itself, very successfully gives player access to the thoughts and lives of people in Aperture Laboratories. I think this contributes a lot of value to the experience of the user/player, who is then driven not only to interact with Agnes, but hopefully will be curious enough to try and “hack it” to understand where it came from and why it is how it is. So the robot taken from a game becomes a little bit of a game itself – is there a mystery to Agnes that needs to be deciphered?
+
+Right now I’m working through these narrative associations and thinking about how this object design conveys identity – thinking how Agnes could easily go from GLadOs to [Luxo](http://jayjayne.files.wordpress.com/2011/12/pixar_by_joneastwood.jpg) with very different implications. And I’m in the process of implementing the pseudo-AI that will be driving Agnes, including the basis for the core switching which I need to turn into physical switching as a next step. Once that’s somewhat running, I’ll work on putting together the hanging arm setup and connecting the two. [The (admittedly super elementary) code for Agnes is up on GitHub](https://github.com/piscosour/agnes), and a little demo of what it does right now is posted below. Any feedback, thoughts or comments are very much welcome, as I’m figuring this all out just as I go along.
+
+<iframe width="640" height="480" src="//www.youtube.com/embed/8GwiLAl4gMk" frameborder="0">
+	
+</iframe>
