@@ -21,11 +21,11 @@ If the automatic capture doesn't work (which sometimes happens), you can also ad
 
 ![The Zotero interface allows you to build collections of resources and export references lists for them.](/files/zotero.jpg)
 
-(The Zotero interface allows you to build collections of resources and export references lists for them.)
+(The Zotero interface allows you to build collections of resources and export reference lists for them.)
 
 Zotero is also super helpful for writing: the [MS Word Zotero Connector](http://www.zotero.org/support/word_processor_plugin_installation) adds an extra toolbar to your Word layout specifically for citation management. This allows you to introduce citations referencing something on the Zotero database directly, then automatically generating a list of references used when you're done, and making it super simple to switch between citation styles like Chicago, APA, MLA, or whatever works for you. If this is something that you spend a lot of time thinking about, you need to stop - computers are much better at doing this, and your procrastination time can be better spent elsewhere.
 
-Additional resources:
+### Additional resources:
 
 * [Zotero at MIT](http://libguides.mit.edu/zotero)
 * [RefWorks, an alternative reference management tool](http://www.refworks.com/)
@@ -52,7 +52,7 @@ The LaTeX package for Mac OS X, [MacTex](http://tug.org/mactex/), comes with pre
 
 TeX and LaTeX have been primarily used for writing in natural sciences and mathematics, where lots of typesetting of equations and formulas take place, but you can really use it for anything if you find it convenient. At MIT, there's even [LaTeX thesis templates](http://web.mit.edu/thesis/tex/) available that have a lot of the scaffolding already in place, and I'm sure there must be similar options at other schools - you can then add any specific packages or options you want to use directly into those. And because LaTeX is pretty modular, you can split up large documents into individual files and then include the pieces into a master layout, which makes it easy to include or exclude things just by commenting out lines, or to reformat sections if you wanted to turn a paper into a chapter or an article, or the other way around.
 
-Additional resources:
+### Additional resources:
 
 * [An Introduction to LaTeX](http://latex-project.org/intro.html)
 * [The Not So Short Introduction to LaTeX](http://tobi.oetiker.ch/lshort/lshort.pdf)
@@ -83,9 +83,9 @@ Zotero generates that format for you automatically. When in LaTeX, depending on 
 
 (Of note: because LaTeX and BibTex both use various intermediate files when compiling, it is usually a good idea to run the compiling multiple times when making big changes to layout or bibliography. Usually, I run pdflatex - bibtex - pdflatex - pdflatex when I want to make sure everything's put together correctly.)
 
-If you're working with Zotero and MS Word the process of introducing citations is way easier. But I just find it incredibly painful to work on MS Word for anything longer than 15 or 20 pages, and then managing styles and formatting is always, always a pain. This way, I can work on modular files and then bring it all together easily with a master file with consistent styling, and once you get used to looking for references in your BibTex file, pulling the identifier, and then inserting that with the `&#92;cite` or `&#92;citep` commands in LaTeX, it becomes pretty much the same in terms of the hassle. For managing a longer document, this is definitely easier for me because you have to keep track of less moving pieces.
+If you're working with Zotero and MS Word the process of introducing citations is way easier. But I just find it incredibly painful to work on MS Word for anything longer than 15 or 20 pages, and then managing styles and formatting is always, always a pain. This way, I can work on modular files and then bring it all together easily with a master file with consistent styling, and once you get used to looking for references in your BibTex file, pulling the identifier, and then inserting that with the `&#92;cite` or `&#92;citep commands in LaTeX, it becomes pretty much the same in terms of the hassle. For managing a longer document, this is definitely easier for me because you have to keep track of less moving pieces.
 
-Additional resources:
+### Additional resources:
 
 * [Zotero with LaTeX and BibTex - MIT Libraries](http://libguides.mit.edu/content.php?pid=55482&sid=406343)
 * [LaTeX Bibliography Management](http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management)
@@ -110,7 +110,7 @@ While this works really well with code, it can also be really helpful for writin
 
 Setting this up is super simple. First, make sure you have a Github account - I signed up for one of their paid plans so I could store everything in a private repository rather than a public one. Then download the Github application, and with it you can initialise a repository file wherever you're currently housing your writing files. Github manages all the behind-the-scenes action of initialising Git for you, and using the application, whenever there are changes made to the files in that folder, you have the choice of committing them (basically, saving changes) and then synching to Github for online storage.
 
-Additional resources:
+### Additional resources:
 
 * [Top 10 Git Tutorial for Beginners](http://sixrevisions.com/resources/git-tutorials-beginners/)
 * [Github online free classes](http://training.github.com/web/free-classes/)
