@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Technological Sublims
+title: The Technological Sublime
 lang: en
 sidebar-header: blog
 excerpt: So I found myself referencing the concept of the "technological sublime" repeatedly, without having actually stopped for a moment to consider what I was talking about. Only then did I realise it was not the spoon that bent, it was only myself --- that is, I realised the category was not as commonplace and clearly defined as I assumed it to be, and decided to go down the rabbit hole to pinpoint more clearly what I was trying to say when summoning the technological sublime as a conceptual Pokémon.
