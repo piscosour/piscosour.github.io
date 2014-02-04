@@ -23,7 +23,9 @@ Future researchers, probably deprived of access to instruction manuals and other
 
 That is the narrative framing where AgNES comes in. AgNES is designed from the point of view of being this deep-space exploration companion; but as a narrative device, it is also about thinking what would happen if thousands of years from now, future researchers came across this device built only hundreds of years from now. What sense would they make of it? How would they understand it, after stumbling upon it floating through space in a derelict ship, perhaps still powered but no longer in the company of any travellers? In the first of the many Star Trek movies, the crew of the Enterprise stumble upon a massive entity threatening Earth called VGER, which upong closer inspection turns out to be the Voyager 6 probe, found by an alien species who augmented its design to enable it to fulfill its mission to "collect knowledge and bring it back to its creator", creating a sentient entity on its way back to Earth in an unrecognisable form. These technologies we're unleashing on the universe may at some point cycle back and be found again, and it'll be a challenge to interpret them
 
-<iframe src="//www.youtube.com/embed/gxAaVqdz_Vk?rel=0" frameborder="0"></iframe>
+<iframe width="853" height="480" src="//www.youtube.com/embed/gxAaVqdz_Vk" frameborder="0">
+	
+</iframe>
 
 AgNES and Meta-AgNES
 --------------------
