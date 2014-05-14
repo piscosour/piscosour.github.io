@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #GDC14 with the #IGDAscholars
+title: &#35;GDC14 with the &#35;IGDAscholars
 lang: en
 sidebar-header: blog
 excerpt: How I got to attend the 2014 Game Developer Conference through the IGDA Scholars program, and got to observe up close how the global game industry operates from a highly concentrated and intense experience.
