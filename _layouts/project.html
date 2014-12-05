@@ -1,27 +1,19 @@
 {% include header.html %}
-<div class="row">
-	<div class="col-md-3" name="sidebar">
-		<a href="/en"><h1>&#60;{{ page.sidebar-header }}&#62;</h1></a>
-		<p>My name's Eduardo and I'm a digital media researcher and designer. I'm currently working on digital innovation for La Victoria Lab, a human-centered design lab part of the Intercorp Group in Lima, Peru.</p>
-		<p>These are some of my current and past side projects.</p>
-		<h4>&#60;projects&#62;</h4>
+<div class="project-header" style="background-image: url('{{ page.featured-image }}')">
+	<div class="container project-header-screen">
+		<h1>{{ page.title }}</h1>
+		{% if page.date %}
+		<h3>{{ page.date }}{%if page.location %} | {{ page.location }}{% endif %}</h3>{% endif %}
+		<p class="lead">{{ page.blurb }}</p>
 
-		<h5>&#60;active&#62;</h5>
-		<ul class="list-unstyled">
-			<li><a href="/projects/columnista">Columnista</a></li>
-			<li><a href="/thesis">Developing Game Worlds</a></li>
-			<li><a href="/projects/mem0r1a">mem0r1a</a></li>
-			<li><a href="/projects/tallervolador">Taller Volador</a></li>
-		</ul>
-
-		<h5>&#60;archived&#62;</h5>
-		<ul class="list-unstyled">
-			<li><a href="/projects/agnes">AgNES</a></li>
-			<li><a href="/projects/cipl">Creative Industries Prototyping Lab</a></li>
-		</ul>
-
-		<h4>&#60;/projects&#62;</h4>
+		<a href="#project-content"><p style="text-align: center; font-size: 200%; color: black"><span class="glyphicon glyphicon-arrow-down"></span></p></a>
 	</div>
-{{ content }}
 </div>
+<div id="#project-content"></div>
+{{ content }}
+
+<div class="col-xs-2 col-md-offset-5 back-link">
+	<a href="/projects" style="display: block; height: 100%; width: 100%"><p style="text-align: center">Back to Projects</p></a>
+</div>
+
 {% include footer.html %}

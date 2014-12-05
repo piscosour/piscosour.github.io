@@ -1,0 +1,26 @@
+---
+layout: gallery
+title: Projects
+---
+<div class="container">
+<div class="col-xs-12" id="gallery-header">
+	<h1>Projects</h1>
+	<p class="lead">Stuff I've been working on over the last few months/years, plus projects I've been a part of. Things that worked, and things that didn't.</p>
+</div>
+
+{% for page in site.pages reversed %}
+	{% if page.flag == 'projects' %}
+		{% if page.featured == true %}
+		<div id="{{ page.shortname }}" class="project-tile-featured col-xs-12">
+		{% else %}
+		<div id="{{ page.shortname }}" class="project-tile col-xs-6" onmouseover="document.getElementById('{{ page.shortname }}-screen').style.visibility='visible'" onmouseout="document.getElementById('{{ page.shortname }}-screen').style.visibility='hidden'">
+		{% endif %}
+			<a href="{{ page.url }}">
+			<div id="{{ page.shortname }}-screen" class="screen">
+					<h2>{{ page.title }}</h2>
+					<p class="lead">{{ page.blurb }}</p>
+			</div>
+			</a>
+		</div>
+	{% endif %}
+{% endfor %}
