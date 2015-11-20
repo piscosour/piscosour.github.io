@@ -5,15 +5,21 @@
 		{% if page.date %}
 		<h3>{{ page.date }}{%if page.location %} | {{ page.location }}{% endif %}</h3>{% endif %}
 		<p class="lead">{{ page.blurb }}</p>
-
-		<a href="#project-content"><p style="text-align: center; font-size: 200%; color: black"><span class="glyphicon glyphicon-arrow-down"></span></p></a>
 	</div>
 </div>
-<div id="#project-content"></div>
-{{ content }}
-
-<div class="col-xs-2 col-md-offset-5 back-link">
-	<a href="/projects" style="display: block; height: 100%; width: 100%"><p style="text-align: center">Back to Projects</p></a>
+<div id="#project-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<div class="project-content">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
+<div class="project-back-button">
+	<a href="/projects"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+</div>
 {% include footer.html %}

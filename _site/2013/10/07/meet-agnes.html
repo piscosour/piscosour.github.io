@@ -5,6 +5,11 @@
 	<link href="/css/bootstrap.css" rel="stylesheet">
 	<link href="/css/marisca.css" rel="stylesheet">
 
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,300italic,300,500,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
+
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -26,44 +31,30 @@
 <body>
 
 
+<div class="jumbotron blog-post-header">
+	<div class="main-nav">
+		<a class="main-nav-button" href="/">Home</a>
+		<a class="main-nav-button" href="/projects">Projects</a>
+		<a class="main-nav-button" href="/blog">Blog</a>
+	</div>
+
+	<div class="back-button">
+		<a href="/blog"><span class="blog-back-button"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></span></a>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h1>Meet Agnes</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container">
 <div class="row">
-	<div class="col-md-3" name="sidebar">
-		<a href="/en"><h1>&#60;piscosour&#62;</h1></a>
-<a href="/blog"><h2>&#60;blog&#62;</h2></a>
-<p>Thoughts and research updates on creative industries (especially digital games), critical technologies and alternative infrastructures.</p>
-<h4>&#60;tags&#62;</h4>
-<ul class="list-unstyled">
-
-	<li>science fiction</li>
-
-	<li>storytelling</li>
-
-	<li>design</li>
-
-	<li>fabrication</li>
-
-	<li>projects</li>
-
-	<li>MIT Media Lab</li>
-
-	<li>SciFi2SciFab</li>
-
-	<li>Portal</li>
-
-	<li>artificial intelligence</li>
-
-</ul>
-<h4>&#60;/tags&#62;</h4>
-<!--
-<h2>&#60;/blog&#62;</h2>
-<h1>&#60;/piscosour&#62;</h1>
--->
-	</div>
-	<div class="col-md-9" name="blog-posts">
-		<h3>&#60;meet agnes&#62;</h3>
-		
-<p>(<a href="http://scifi2scifab.media.mit.edu/2013/10/07/meet-agnes/">Originally posted in the SciFi2SciFab blog</a>)</p>
+	<div class="col-sm-8 col-sm-offset-2" name="blog-posts">
+		<div class="blog-post">
+			<p>(<a href="http://scifi2scifab.media.mit.edu/2013/10/07/meet-agnes/">Originally posted in the SciFi2SciFab blog</a>)</p>
 
 <p>[Warning: This post contains spoilers related to the Portal and Portal 2 games.]</p>
 
@@ -71,11 +62,11 @@
 
 <p>GLadOs controls the Aperture Laboratories facility and all of its contents, and as you progress through the first game she begins to act increasingly oddly, until you eventually find out she’s responsible for killing everyone in the facility with a neurotoxin gas. GLadOs appears to be driven solely by the urge to continue scientific testing of the Portal gun, and indeed, as soon as the player character completes the final testing sequence, she attempts to kill you (something you manage to escape to ultimately confront, and destroy, the GLadOs core).</p>
 
-<p><img alt='GLadOS’s main unit' src='/files/glados.jpg' width='100%' /></p>
+<p><img alt="GLadOS’s main unit" src="/files/glados.jpg" width="100%" /></p>
 
 <p>GLadOs, an experiment from Aperture Laboratories herself, was fitted with a sort of “fail-safe” mechanism in the form of personality cores. The various sides of her personality were split into multiple physical cores which could be attached or detached from the main unit, including cores for logical processing, morality, rage, and in Portal 2, an actual stupidity core – Wheatley – whose design was intended to stop GLadOs from taking over control of everything.</p>
 
-<p><img alt='Some of the GLadOs personality cores' src='/files/personality_cores.png' width='60%' /></p>
+<p><img alt="Some of the GLadOs personality cores" src="/files/personality_cores.png" width="60%" /></p>
 
 <p>My SciFi2SciFab project is an attempt to reconstruct a version of GLadOs (without the murderous desires, of course), which I’m calling Agnes. GLadOs falls into a long and rich tradition of crazy robots which includes some hallmarks as HAL9000 from the 2001: A Space Odyssey novel and film. But it is also a very interesting reflection on natural and artificial intelligence: in the Portal 2 game, it is revealed that GLadOs was actually the result of transferring the consciousness of a living person on to a machine, which then went on to become a little bit insane because of the transformation and the sudden realisation she no longer had any human limits.</p>
 
@@ -83,15 +74,17 @@
 
 <p>The other side of Agnes is the hardware component, a version of the hanging mechanical arm seen in the picture above providing a material interface to the pseudo AI. The arm will be fitted with a sensors allowing it to detect presences standing in front of it, and Agnes will then lock on to them and follow them around as they move within her operational range. I’ve wanted so far to preserve the original design of having Agnes hanging from above, which I’m also thinking would turn into a really cool application if you had a more evolved version coupled to rails along the ceiling of a building, to have your own version of Agnes following you around and providing helpful information and assistance.</p>
 
-<p><img alt='The original arm design for Agnes' src='/files/agnes_sketch.jpg' width='100%' /></p>
+<p><img alt="The original arm design for Agnes" src="/files/agnes_sketch.jpg" width="100%" /></p>
 
 <p>The more I look for inspiration and ideas for the project, the more I’m drawn to realise how small design decisions going into Agnes have intense narrative charge. Not only in terms of associations one can make, but in terms of conveying the notion of an imaginary designer making imaginary decisions, and the object itself, Agnes, being the conveyor of those decisions and that background world invisible to the user – very much like Portal, the game itself, very successfully gives player access to the thoughts and lives of people in Aperture Laboratories. I think this contributes a lot of value to the experience of the user/player, who is then driven not only to interact with Agnes, but hopefully will be curious enough to try and “hack it” to understand where it came from and why it is how it is. So the robot taken from a game becomes a little bit of a game itself – is there a mystery to Agnes that needs to be deciphered?</p>
 
 <p>Right now I’m working through these narrative associations and thinking about how this object design conveys identity – thinking how Agnes could easily go from GLadOs to <a href="http://jayjayne.files.wordpress.com/2011/12/pixar_by_joneastwood.jpg">Luxo</a> with very different implications. And I’m in the process of implementing the pseudo-AI that will be driving Agnes, including the basis for the core switching which I need to turn into physical switching as a next step. Once that’s somewhat running, I’ll work on putting together the hanging arm setup and connecting the two. <a href="https://github.com/piscosour/agnes">The (admittedly super elementary) code for Agnes is up on GitHub</a>, and a little demo of what it does right now is posted below. Any feedback, thoughts or comments are very much welcome, as I’m figuring this all out just as I go along.</p>
-<iframe frameborder='0' height='480' src='//www.youtube.com/embed/8GwiLAl4gMk' width='640'>
+
+<iframe width="640" height="480" src="//www.youtube.com/embed/8GwiLAl4gMk" frameborder="0">
 	
 </iframe>
-		<p>
+
+		</div>
 		<hr />
 		<div id="disqus_thread"></div>
 	    <script type="text/javascript">
@@ -109,6 +102,7 @@
 	    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 	</div>
 </div>
+
 </div>
 
 <div class="col-md-12" style="margin-top: 50px">

@@ -1,13 +1,29 @@
 {% include header.html %}
+<div class="jumbotron blog-post-header">
+	<div class="main-nav">
+		<a class="main-nav-button" href="/">Home</a>
+		<a class="main-nav-button" href="/projects">Projects</a>
+		<a class="main-nav-button" href="/blog">Blog</a>
+	</div>
+
+	<div class="back-button">
+		<a href="/blog"><span class="blog-back-button"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></span></a>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h1>{{ page.title }}</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container">
 <div class="row">
-	<div class="col-md-3" name="sidebar">
-		{% include post-sidebar.html %}
-	</div>
-	<div class="col-md-9" name="blog-posts">
-		<h3>&#60;{{ page.title | downcase }}&#62;</h3>
-		{{ content }}
-		<p>
+	<div class="col-sm-8 col-sm-offset-2" name="blog-posts">
+		<div class="blog-post">
+			{{ content }}
+		</div>
 		<hr />
 		<div id="disqus_thread"></div>
 	    <script type="text/javascript">
@@ -25,4 +41,5 @@
 	    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 	</div>
 </div>
+
 {% include footer.html %}
