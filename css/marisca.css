@@ -1,5 +1,36 @@
-#gallery-header {
+/* Project Gallery Styles */
 
+.project-slide {
+	width: 100%;
+	height: 100vh;
+	background-color: green;
+}
+
+.project-slide-text {
+	position: relative;
+	background-color: rgba(190,190,190,0.8);
+	padding: 50px;
+	width: 600px;
+	height: 100%;
+	left: 100px;
+}
+
+#gallery-header {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+.project-slide-text a {
+	text-decoration: none;
+	color: white;
+	font-size: 125%;
+	padding: 5px;
+}
+
+.project-slide-text a:hover {
+	border-bottom: 2px solid white;
 }
 
 .project-tile {
@@ -109,6 +140,80 @@
 	background-position: 0 0;
 }
 
+.blog-post {
+	font-family: 'Lora', serif;	
+	font-size: 135%;
+	line-height: 2.0em;
+}
+
+.blog-post img,
+.project-content img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: block;
+	width: 75%;
+}
+
+.back-button {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.blog-back-button {
+	font-size: 200%;
+}
+
+.blog-post-header {
+	background-color: black;
+	color: white;
+}
+
+.main-nav {
+	width: 100%;
+	color: white;
+	text-align: right;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size: 10px;
+	font-family: 'Ubuntu', sans-serif;	
+	font-weight: bold;
+	height: 50px;
+}
+
+.main-nav a {
+	color: white;
+	padding: 5px;
+}
+
+.main-nav-button {
+	display: inline-block;
+	width:80px;
+	margin: 10px;
+	text-align: center;
+}
+
+.main-nav-button:hover {
+	border-bottom: 2px solid white;
+	text-decoration: none;
+}
+
+/* Project Page Styles */
+
+.project-back-button {
+	text-align: center;
+	font-size: 400%;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.project-back-button a:hover {
+	text-decoration: none;
+}
+
+
 .project-header {
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -147,76 +252,4 @@
 .back-link:hover a {
 	color: white;
 	text-decoration: underline;
-}
-
-.blog-post {
-	font-family: 'Lora', serif;	
-	font-size: 135%;
-	line-height: 2.0em;
-}
-
-.blog-post img,
-.project-content img {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	display: block;
-	width: 75%;
-}
-
-.back-button {
-	position: absolute;
-	top: 100px;
-	left: 100px;
-}
-
-.blog-back-button {
-	font-size: 200%;
-}
-
-.blog-post-header {
-	background-color: black;
-	color: white;
-}
-
-.main-nav {
-	color: white;
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 50px;
-	font-size: 60%;
-	font-family: 'Ubuntu', sans-serif;	
-	font-weight: bold;
-}
-
-.main-nav a {
-	color: white;
-}
-
-.main-nav-button {
-	display: inline-block;
-	height:30px;
-	width:100px;
-	text-align: center;
-	border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	border: 0px none #000000;
-}
-
-.main-nav-button:hover {
-	background-color: rgba(150,150,150,0.6);
-	text-decoration: none;
-}
-
-.project-back-button {
-	text-align: center;
-	font-size: 400%;
-	margin-top: 50px;
-	margin-bottom: 100px;
-}
-
-.project-back-button a:hover {
-	text-decoration: none;
 }

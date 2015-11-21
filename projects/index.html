@@ -1,26 +1,31 @@
 ---
 layout: gallery
 title: Projects
+flag: scroll
 ---
-<div class="container">
-<div class="col-xs-12" id="gallery-header">
-	<h1>Projects</h1>
-	<p class="lead">Stuff I've been working on over the last few months/years, plus projects I've been a part of. Things that worked, and things that didn't.</p>
-</div>
+<div class="main">
+	<section>
+		<div id="gallery-header">
+			{% include main-nav.html %}
+			<div class="container">
+				<h1>Projects</h1>
+				<p class="lead">Stuff I've been working on over the last few months/years, plus projects I've been a part of. Things that worked, and things that didn't.</p>
+			</div>
+		</div>
+	</section>
 
 {% for page in site.pages reversed %}
 	{% if page.flag == 'projects' %}
-		{% if page.featured == true %}
-		<div id="{{ page.shortname }}" class="project-tile-featured col-xs-12">
-		{% else %}
-		<div id="{{ page.shortname }}" class="project-tile col-xs-6" onmouseover="document.getElementById('{{ page.shortname }}-screen').style.visibility='visible'" onmouseout="document.getElementById('{{ page.shortname }}-screen').style.visibility='hidden'">
-		{% endif %}
-			<a href="{{ page.url }}">
-			<div id="{{ page.shortname }}-screen" class="screen">
-					<h2>{{ page.title }}</h2>
-					<p class="lead">{{ page.blurb }}</p>
+	<section>
+		<div class="project-slide">
+			<div class="project-slide-text">
+				<h1>{{ page.title }}</h1>
+				<p class="lead">{{ page.blurb }}</p>
+				<a href="{{ page.url }}">Read More</a>
 			</div>
-			</a>
 		</div>
+	</section>
 	{% endif %}
 {% endfor %}
+
+</div>
