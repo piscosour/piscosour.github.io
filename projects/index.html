@@ -16,15 +16,17 @@ flag: scroll
 
 {% for page in site.pages reversed %}
 	{% if page.flag == 'projects' %}
-	<section>
-		<div class="project-slide">
-			<div class="project-slide-text">
-				<h1>{{ page.title }}</h1>
-				<p class="lead">{{ page.blurb }}</p>
-				<a href="{{ page.url }}">Read More</a>
+		{% if page.featured == 'true' %}
+		<section>
+			<div class="project-slide">
+				<div class="project-slide-text">
+					<h1>{{ page.title }}</h1>
+					<p class="lead">{{ page.blurb }}</p>
+					<a href="{{ page.url }}">Read More</a>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+		{% endif %}
 	{% endif %}
 {% endfor %}
 

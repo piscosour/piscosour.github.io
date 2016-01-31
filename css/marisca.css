@@ -176,11 +176,11 @@
 	color: white;
 	text-align: right;
 	text-transform: uppercase;
-	margin-bottom: 50px;
 	font-size: 10px;
 	font-family: 'Ubuntu', sans-serif;	
 	font-weight: bold;
 	height: 50px;
+	background-color: black;
 }
 
 .main-nav a {
