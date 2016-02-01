@@ -2,3 +2,104 @@
 /* v2 -- January 2016 */
 
 
+/* headline block contains main page title and subtitle, including possible translations. uses custom style for h1/h2 for titles. */
+
+#home-main {
+	position: relative;
+}
+
+.headline {
+	position: relative;
+	top: 15vh;
+	word-wrap: break-word;
+}
+
+.headline h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	color: #000000;
+	line-height: 72px;
+}
+
+.headline h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 36px;
+	color: #000000;
+	line-height: 45px;
+}
+
+.headline h1.title_translation {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	color: #9B9B9B;
+	line-height: 57px;
+}
+
+.headline h2.subtitle_translation {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 28px;
+	color: #9B9B9B;
+	line-height: 35px;
+}
+
+.headline h1,h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+/* home-nav block includes the main navigation links for the homepage only */
+
+.home-nav {
+	position: relative;
+	top: 30vh;
+}
+
+.home-nav .home-nav_link {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	color: #000000;
+	line-height: 32px;
+}
+
+.home-nav .home-nav_link_translation{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #9B9B9B;
+	line-height: 32px;
+}
+
+
+/* footer block contains footer content, duh. at the bottom of the page, white background on home, coloured background elsewhere. */
+
+.footer {
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	bottom: 0;
+}
+.footer .footer-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+}
+
+.footer .footer-text_translation {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #9B9B9B;
+	line-height: 20px;
+}
+
+
+/* Media queries */
+
+/* Hide footer div on small screens (it renders poorly + it's unnecessary) */
+
+@media screen and (min-width: 0px) and (max-width: 640px) {
+	.footer { 
+		display: none; 
+	}
+}
