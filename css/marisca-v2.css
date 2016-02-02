@@ -123,6 +123,10 @@
 	background-color: #2A928F;
 }
 
+.project-footer {
+	background-color: #F4A261;
+}
+
 /* page-content block... you know where this is going... */
 
 .page-content {
@@ -150,12 +154,6 @@
 	line-height: 28px;
 }
 
-.page-content p.blocks {
-	font-size: 14px;
-	color: #000000;
-	line-height: 20px;
-}
-
 .page-content a {
 	color: #2A928F;
 	text-decoration: underline;
@@ -168,10 +166,30 @@
 .page-blocks {
 	margin-top: 50px;
 }
+
+.page-blocks p {
+	font-size: 14px;
+	color: #000000;
+	line-height: 20px;
+}
+
 .page-blocks_socialmedia {
 	height: 40px;
 	width: auto;
 	margin-right: 20px;
+}
+
+
+/* project resources elements sit at the bottom of every project page */
+
+.project-resources {
+	padding: 20px;
+	text-align: center;
+}
+
+.project-resources p.project-resources_icon {
+	font-size: 80px;
+	margin-bottom: 20px;
 }
 
 /* Media queries */
