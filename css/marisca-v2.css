@@ -9,8 +9,7 @@
 }
 
 .headline {
-	position: relative;
-	top: 15vh;
+	margin-top: 15vh;
 	word-wrap: break-word;
 }
 
@@ -20,6 +19,7 @@
 	font-size: 60px;
 	color: #000000;
 	line-height: 72px;
+	display: inline;
 }
 
 .headline h2 {
@@ -32,6 +32,7 @@
 .headline h1.title_translation {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 48px;
+	font-weight: 400;
 	color: #9B9B9B;
 	line-height: 57px;
 }
@@ -52,8 +53,11 @@
 /* home-nav block includes the main navigation links for the homepage only */
 
 .home-nav {
-	position: relative;
-	top: 30vh;
+	margin-top: 15vh;
+}
+
+.home-nav a {
+	color: #000000;
 }
 
 .home-nav .home-nav_link {
@@ -71,13 +75,33 @@
 }
 
 
+/* header block contains the top nav as header-nav */
+
+.header {
+	color: white;
+	background-color: #264653;
+	height: 45px;
+	padding: 10px;
+}
+
+.header-nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.header-nav a:hover {
+	color: #9B9B9B;
+}
+
 /* footer block contains footer content, duh. at the bottom of the page, white background on home, coloured background elsewhere. */
 
 .footer {
 	width: 100%;
 	height: 45px;
-	position: absolute;
-	bottom: 0;
+	padding: 10px;
+	margin-top: 15vh;
 }
 .footer .footer-text {
 	font-family: 'Montserrat', sans-serif;
@@ -93,6 +117,62 @@
 	line-height: 20px;
 }
 
+/* Specific footer styles to control the background color */
+
+.page-footer {
+	background-color: #2A928F;
+}
+
+/* page-content block... you know where this is going... */
+
+.page-content {
+	margin-top: 45vh;
+}
+
+.page-content h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: #000000;
+	line-height: 38px;
+}
+
+.page-content p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	color: #000000;
+	line-height: 32px;
+}
+
+.page-content p.paragraph-translation {
+	font-size: 16px;
+	color: #9B9B9B;
+	line-height: 28px;
+}
+
+.page-content p.blocks {
+	font-size: 14px;
+	color: #000000;
+	line-height: 20px;
+}
+
+.page-content a {
+	color: #2A928F;
+	text-decoration: underline;
+}
+
+.page-content a:hover {
+	color: #F4A261;
+}
+
+.page-blocks {
+	margin-top: 50px;
+}
+.page-blocks_socialmedia {
+	height: 40px;
+	width: auto;
+	margin-right: 20px;
+}
 
 /* Media queries */
 
