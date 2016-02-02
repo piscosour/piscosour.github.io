@@ -13,8 +13,13 @@ In May 2014, I finished my Master's thesis in the <a href="http://cmsw.mit.edu">
 
 The project was evaluated by <a href="http://tltaylor.com/">T.L. Taylor</a> (my main advisor) and <a href="http://web.mit.edu/condry/www/">Ian Condry</a> from the Comparative Media Studies program at MIT. This work is one of a handful of studies available on game industries in Peru (and Latin America in general) — at least that I've been able to find. It also attempts to contribute some ideas about how to identify, map, and strengthen technology industries in developing economies by looking at the work of existing creative communities that are invisible to most measures and indicators.
 
-<div class="row photo-grid">
-
+<div class="row project-photos">
+	<div class="project-photos_block col-lg-6 col-md-4 col-sm-6 col-xs-12">
+		<img src="/files/start.jpg" class="project-photos_picture">
+	</div>
+	<div class="project-photos_block col-lg-6 col-md-4 col-sm-6 col-xs-12">
+		<img src="/files/peru-gdc-setup.jpg" class="project-photos_picture">
+	</div>
 </div>
 
 <h3>Learn More</h3>

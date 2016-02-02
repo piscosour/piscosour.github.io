@@ -192,6 +192,16 @@
 	margin-bottom: 20px;
 }
 
+.project-photos_block {
+	padding: 20px;
+}
+
+.project-photos_picture {
+	width: 100%;
+	height:auto;
+	object-fit: cover;
+}
+
 /* Media queries */
 
 /* Hide footer div on small screens (it renders poorly + it's unnecessary) */
