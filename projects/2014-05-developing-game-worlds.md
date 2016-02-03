@@ -2,12 +2,12 @@
 layout: project-v2
 title: Developing Game Worlds
 shortname: developinggameworlds
-subtitle: Exploring the evolution of indie game development and how peripheral innovation works in Lima, Peru
+subtitle: Exploring the evolution of indie game development in Lima, Peru
 type: project
 date: February 2013 - May 2014
 location: Cambridge, MA + Lima, Peru
 permalink: projects/developing-game-worlds/
-featured-image: /files/start.jpg
+featured: true
 ---
 In May 2014, I finished my Master's thesis in the <a href="http://cmsw.mit.edu">Comparative Media Studies program at MIT</a>, researching the emergence of the video game industry in Peru. This work is the result of several months of qualitative research carried out in Lima, Peru, primarily between May and August 2013. It is an effort to map the history and current configuration of the game industry in Lima, as well as its potential and challenges as it consolidates into a growing technology sector and creative industry.
 

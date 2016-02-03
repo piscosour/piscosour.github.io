@@ -1,9 +1,9 @@
 ---
-layout: project
+layout: project-v2
 title: The Radix Endeavor
 shortname: radix
-blurb: Massively multiplayer online game to develop science and math skills in high school kids.
-flag: projects
+subtitle: Massively multiplayer online game to develop high school STEM skills
+type: project
 date: September 2012 - May 2014
 location: Lima, Peru
 permalink: projects/radix/

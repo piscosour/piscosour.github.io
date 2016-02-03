@@ -1,31 +1,33 @@
 ---
-layout: gallery
-title: Projects
-flag: scroll
+layout: portfolio-v2
+title: Things I Do
+title_translation: Cosas que hago
+type: portfolio
 ---
-<div class="main">
-	<section>
-		<div id="gallery-header">
-			{% include main-nav.html %}
-			<div class="container">
-				<h1>Projects</h1>
-				<p class="lead">Stuff I've been working on over the last few months/years, plus projects I've been a part of. Things that worked, and things that didn't.</p>
-			</div>
+<div class="row">
+	<div class="col-md-12 col-sm-12 col-xs-12">
+		<div id="english">
+			<p>These are some design and research projects and experiments I’ve been a part of in recent years, both large and small.</p>
 		</div>
-	</section>
-
-{% for page in site.pages reversed %}
-	{% if page.flag == 'projects' %}
-	<section>
-		<div class="project-slide">
-			<div class="project-slide-text">
-				<h1>{{ page.title }}</h1>
-				<p class="lead">{{ page.blurb }}</p>
-				<a href="{{ page.url }}">Read More</a>
-			</div>
+		<div id="spanish">
+			<p class="paragraph-translation">// Estos son algunos de los proyectos y experimentos de investigación y diseño, grandes y chicos, de los que he sido parte en los últimos años.</p>
 		</div>
-	</section>
-	{% endif %}
-{% endfor %}
+	</div>
+</div>
 
+<div class="row">
+	<div class="col-md-12 col-xs-12">
+	{% for page in site.pages reversed %}
+		{% if page.type == 'project' %}
+		<div class="{% if page.featured %}col-md-8 col-sm-8 col-xs-12{% else %}col-md-4 col-sm-4 col-xs-12{% endif %} portfolio-card_frame">
+			<a href="{{ page.url }}">
+				<div class="portfolio-card_content">
+					<h1>{{ page.title }}</h1>
+					<h2>{{ page.subtitle }}</h2>
+				</div>
+			</a>
+		</div>
+		{% endif %}
+	{% endfor %}
+	</div>
 </div>

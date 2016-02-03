@@ -213,6 +213,40 @@
 	object-fit: cover;
 }
 
+/* styles related to the portfolio gallery */
+
+.portfolio-card_frame {
+	padding: 20px;
+}
+
+.portfolio-card_frame a {
+	display: block;
+	text-decoration: none;
+}
+.portfolio-card_content {
+	padding: 15px;
+	background-color: #2A928F;
+	height: 250px;
+}
+
+.portfolio-card_content h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #000000;
+	line-height: 36px;
+	margin-top: 0;
+	text-decoration: none;
+}
+
+.portfolio-card_content h2 {
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	line-height: 24px;
+	text-decoration: none;
+}
+
 /* Media queries */
 
 /* Hide footer div on small screens (it renders poorly + it's unnecessary) */
