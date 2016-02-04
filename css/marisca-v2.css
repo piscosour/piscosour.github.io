@@ -223,6 +223,7 @@
 	display: block;
 	text-decoration: none;
 }
+
 .portfolio-card_content {
 	padding: 15px;
 	background-color: #2A928F;
@@ -236,16 +237,65 @@
 	color: #000000;
 	line-height: 36px;
 	margin-top: 0;
-	text-decoration: none;
 }
 
 .portfolio-card_content h2 {
-	font-family: 'Libre Baskerville', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 	font-size: 20px;
 	color: #000000;
 	line-height: 24px;
-	text-decoration: none;
 }
+
+ /* styles related to the blog */
+
+.blog-card {
+	border: 1px solid black;
+	min-height: 200px;
+	padding: 20px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.blog-card:hover {
+	background-color: #9B9B9B;
+}
+
+.blog-card_container a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.blog-card h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #000000;
+	line-height: 36px;
+	margin-top: 0;
+}
+
+.blog-card h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #000000;
+	line-height: 24px;
+}
+
+.blog-card p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 18px;
+}
+
+.blog-card p.blog-card_footer {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 10px;
+}
+
 
 /* Media queries */
 

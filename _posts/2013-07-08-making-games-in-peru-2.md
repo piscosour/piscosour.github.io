@@ -2,9 +2,9 @@
 layout: post
 title: Making Games in Peru, 2&#58; Finding a Place in the Global Industry
 lang: en
-sidebar-header: blog
-excerpt: As recently as a decade ago, one would have been hard pressed to say there’d be a promising future for the gaming industry in Peru, or elsewhere in Latin America. Success stories were short lived, and post mortems would routinely refer to underlying factors such as widespread piracy throughout the region as impeding any sustained growth or innovation. Without significant local audiences to buy and play locally developed games, the prospects for emerging communities of hackers and tinkerers, who were learning how to make games through various forms of reverse engineering, were grim. Some research even suggested that the only possible future for a games industry in Latin America given conditions at the time would be assembling consoles in the cheap labour-driven model of so-called “free trade zones”.<br /><br />Then in 2003, Steam happened.
+excerpt: How new technologies, tools, and platforms are opening up opportunities for Peruvian-made video games to make it out into the world.
 tags: [game industry, globalisation, digital distribution, Steam, Peru, long tail, localisation]
+url: http://gamelab.mit.edu/making-games-in-peru-2/
 ---
 ([Originally posted at the MIT Game Lab blog](http://gamelab.mit.edu/making-games-in-peru-2/))
 

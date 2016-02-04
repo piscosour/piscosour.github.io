@@ -1,16 +1,20 @@
 ---
-layout: blog
-title: Blog
-sidebar-header: blog
+layout: blog-v2
+title: Things I Write
+title_translation: Cosas que escribo
 ---
-<div class="col-md-9" name="blog-posts">
-<h3>&#60;posts&#62;</h3>
-<ul class="list-unstyled">
-	{% for post in site.posts %}
-		{% if post.lang == "en" %}
-			<li><p>[{{ post.date | date_to_string }}]<br /><a href="{{ post.url }}"><span class="lead">{{ post.title }}</span></a><br />{{ post.excerpt }} <a href="{{ post.url }}">(...)</a></p><br /></li>
-		{% endif %}	
-	{% endfor %}
-</ul>
-<h3>&#60;/posts&#62;</h3>
+<div class="row">
+	<div class="col-md-12 col-xs-12">
+		{% for post in site.posts %}
+		<div class="col-xs-12 blog-card_container">
+			<a class="blog-card_link" href="{{ post.url }}">
+				<div class="blog-card">
+					<h1>{{ post.title }}</h1>
+					<h2>{{ post.excerpt }}</h2>
+					<p class="blog-card_footer">{{ post.date | date_to_string }}</p>
+				</div>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
 </div>
