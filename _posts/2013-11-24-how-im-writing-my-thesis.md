@@ -2,8 +2,7 @@
 layout: post
 title: How I'm Writing My Thesis
 lang: en
-sidebar-header: blog
-excerpt: Now that I'm getting heavily into the writing part of my thesis, I've had the chance to procrastinate on the actual writing by looking into multiple arrangements, setups, and tools to support my actual writing process. There are many things to manage when writing a thesis&#58; references, notes, drafts, citations, layouts, versioning, backups, and perhaps even more depending on your specific field. So I've decided to put together a quick walkthrough about my own process and workflow and how I've set up different tools across the research and writing process, along with links to additional resources.
+excerpt: The writing workflow for my thesis, or how to productively procrastinate with Zotero, LaTeX, and GitHub.
 tags: [thesis, writing, workflow, tools, Zotero, LaTeX, BibTex, Git, Github]
 ---
 Now that I'm getting heavily into the writing part of my thesis, I've had the chance to procrastinate on the actual writing by looking into multiple arrangements, setups, and tools to support my actual writing process. There are many things to manage when writing a thesis: references, notes, drafts, citations, layouts, versioning, backups, and perhaps even more depending on your specific field. So I've decided to put together a quick walkthrough about my own process and workflow and how I've set up different tools across the research and writing process, along with links to additional resources.
