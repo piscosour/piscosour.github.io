@@ -21,10 +21,10 @@ The project was evaluated by <a href="http://tltaylor.com/">T.L. Taylor</a> (my 
 		<img src="/files/peru-gdc-setup.jpg" class="project-photos_picture">
 	</div>
 	<div class="project-photos_block col-lg-6 col-md-4 col-sm-6 col-xs-12">
-		<img src="/files/peru-creative-country.jpg" class="project-photos_picture">
+		<img src="/files/peru-creative-country.JPG" class="project-photos_picture">
 	</div>
 	<div class="project-photos_block col-lg-6 col-md-4 col-sm-6 col-xs-12">
-		<img src="/files/peru-rovio.jpg" class="project-photos_picture">
+		<img src="/files/peru-rovio.JPG" class="project-photos_picture">
 	</div>
 </div>
 
