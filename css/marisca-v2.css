@@ -261,7 +261,7 @@
 .portfolio-card_content {
 	padding: 15px;
 	background-color: #2A928F;
-	height: 250px;
+	min-height: 250px;
 }
 
 .portfolio-card_content h1 {
