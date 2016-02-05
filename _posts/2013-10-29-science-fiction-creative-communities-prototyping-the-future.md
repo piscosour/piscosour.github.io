@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: article-v2
 title: Science Fiction, Creative Communities and Prototyping the Future
 lang: en
+type: article
 excerpt: How imagined technologies in science fiction can help us think about the implications of possible futures.
 tags: [creative communities, science fiction, prototyping, MIT Media Lab, social movements, participation, engagement, social contract]
 ---

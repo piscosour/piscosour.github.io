@@ -1,20 +1,26 @@
 ---
-layout: post
+layout: article-v2
 title: GDC14 with the IGDA Scholars
 lang: en
-sidebar-header: blog
+type: article
 excerpt: How I got to attend the 2014 Game Developer Conference through the IGDA Scholars program, and got to observe up close how the global game industry operates from a highly concentrated and intense experience.
 tags: [GDC14, IGDA Scholars, game industry, game development]
 ---
 Given it's been about two months since this year's [Game Developer Conference](http://www.gdconf.com/) (GDC) happened in San Francisco, it almost feels a tad late to be doing a writeup about it just now. But it's really taken me this long to process much of what was going on during on the game industry's largest and most important events --- and factoring a whole bunch of it into the final version of my thesis. I had the opportunity to attend GDC because of an [IGDA Scholarship](http://scholars.igda.org/) providing an all-access pass to the event and a whole bunch of side activities that were especially meaningful in providing me with a behind-the-scenes perspective into the game industry's past, present, and future.
 
-<img alt="The GDC14 cohort of IGDA Scholar." style="width: 75%" src="/files/gdc14-igda-scholars.jpg" />
+<div class="article-image_container">
+	<img alt="The GDC14 cohort of IGDA Scholar." src="/files/gdc14-igda-scholars.jpg" class="article-image" />
+	<p>The GDC14 cohort of IGDA Scholar.</p>
+</div>
 
 The [IGDA Scholarship](http://scholars.igda.org/) program provides students and recent graduates from anywhere in the world who're interested in becoming more involved with the game industry the opportunity of attending [some of its most important events](http://scholars.igda.org/scholarship-venues/), such as GDC, E3, Casual Connect, the Tokyo Game Show, and others. For people looking to pursue careers in the game industry after school, or doing research around that area (such as my own case), it is a especially interesting opportunity as IGDA Scholars get considerable access to everything related to the conference and beyond: we got to visit a few game studios around San Francisco ([Double Fine](http://www.doublefine.com/) and [Three Rings](http://www.threerings.net/)), had the opportunity to meet game industry veterans for private Q&As (Jenova Chen, Don Daglow, and Warren Spector), and everyone in the scholar group was matched with a game industry mentor for some one-on-one coaching (in my case, I got to meet the wonderful and super helpful Mitu Khandaker-Kokoris from [The Tiniest Shark](http://thetiniestshark.com/)). On top of that, the scholar cohort itself is quite diverse in terms of country of origin and areas of interest, making it a fun and interesting bunch of people to hang out with.
 
 Being at GDC was especially relevant for me going into the later stages of my research on the Peruvian video game industry, as this year not only were there going to be a number of game studios from Lima attending the conference, but for the first time there'd also be a booth within the GDC show floor sponsored by [PromPerú](http://www.promperu.gob.pe/), the Peruvian tourism and export promotion agency, representing a number of studios that make up the recently established Video Game Chapter of the [Peruvian Software Association](http://www.apesoft.org/) (commonly referred to as the CVA). This represents the first time Peruvian game studios have banded together to address the big issues that affect them all as a sector, and being able to score this level of government support --- unprecedented in the local industry's history --- in just a few months of being active is quite meaningful.
 
-<img alt="Peru's country both within the GDC exhibit floor." style="width: 75%" src="/files/peru-gdc-setup.jpg" />
+<div class="article-image_container">
+	<img alt="Peru's country booth within the GDC exhibit floor." src="/files/peru-gdc-setup.jpg" class="article-image" />
+	<p>Peru's country both within the GDC exhibit floor</p>
+</div>
 
 Having all of this happening simultaneously at GDC was therefore an impressive amount of data for my research. On the one hand, primarily through the activities of the IGDA Scholars program I had a lot of access to observing how the game industry operates at one of the industry's centers, the city of San Francisco, and at one of its main hubs of activity, GDC itself. But being at GDC also gave me access to observing how Peruvian game developers presented themselves to the global industry, and how they organised themselves and coordinated to present the industry as a whole to their global peers. These two things don't necessarily align --- how the industry operates at the center is quite different from how it operates at the periphery, and as much as many are inclined to think of video game development as a globally distributed network of practices, this network is instantiated locally in very specific ways around the world. Furthermore, not only is video game development different between industry centers and the various peripheries that gravitate around them, but even peripheries are not all the same. Cultural, political, and economic specificities provide various building blocks on top of which game studios operate.
 
@@ -22,7 +28,10 @@ GDC is a great place to observe all of this, just because there's so much going 
 
 Of course, for a first-timer, GDC is especially hard to navigate. The conference is large and complex enough that it has its own mobile app with updates on everything going on at any given time. But that probably makes it worse: GDC is the ultimate FOMO (fear of missing out) experience, as at every moment you can't help but wonder whether there might be somewhere else you should or could be. It takes a while to get over that feeling and just start to go with the flow and starting casual conversations with anyone and everyone. People in the game industry --- or, at the very least, the people I talked to during GDC --- are surpringly accessible and eager to talk about their work and projects, regardless of how big or important they may be. Which makes it an amazing place to learn very much, very fast.
 
-<img alt="Moscone West, where most of the sessions and presentations for GDC happened." style="width: 75%" src="/files/moscone-center-gdc.jpg" />
+<div class="article-image_container">
+	<img alt="Moscone West, where most of the sessions and presentations for GDC happened." src="/files/moscone-center-gdc.jpg" class="article-image" />
+	<p>Moscone West, where most of the sessions and presentations for GDC happened</p>
+</div>
 
 After I week I was tired enough that I really just wanted to go home and nap for several days, but it was all good, nerdy fun, and the data I captured has been extremely helpful to my thesis research (but more on that later). And while I could probably go on to share multiple tips about how to go about navigating something as complex as GDC, there are already several posts out on the web from people much more experienced at it than I am. What I will say, though, is that the [IGDA Scholarship](http://scholars.igda.org/) program is the best possible introduction I can think of for an experience such as this: not only do you get a lot of coaching and mentoring as well as connections to a lot of cool people, but you also get expanded access to places, events, and people that will be extremely helpful to professional or research prospects. So for any students interested in games or recent graduates who want to explore what the game industry is like, I very much recommend you [apply to the program](http://scholars.igda.org/how-to-apply/) (and [become an IGDA member in the process](https://www.igda.org/general/register_member_type.asp?)!).
 

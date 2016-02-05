@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article-v2
 title: The Technological Sublime
 lang: en
 excerpt: Notes on the technological sublime, and how we interpret the connection between social and technological change.
