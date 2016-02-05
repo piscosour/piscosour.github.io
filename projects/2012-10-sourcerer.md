@@ -1,9 +1,9 @@
 ---
-layout: project
+layout: project-v2
 title: Sourcerer
 shortname: sourcerer
-blurb: How can we create simple tools to assist journalists in navigating complex issues, such as science and pharma reporting?
-flag: projects
+subtitle: How can we create simple tools to assist journalists in navigating complex issues, such as science and pharma reporting?
+type: project
 date: October 2012
 location: Cambridge, MA
 permalink: projects/sourcerer/

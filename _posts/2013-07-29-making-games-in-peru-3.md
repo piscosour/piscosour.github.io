@@ -3,8 +3,9 @@ layout: post
 title: Making Games in Peru, 3&#58; A Game of Risk
 lang: en
 sidebar-header: blog
-excerpt: In strictly economical terms, there shouldn’t be a Peruvian gaming industry. The right conditions aren’t there&#58; skills are hard to acquire, financing is not readily available, and much better financial returns can be secured by looking elsewhere in the economy. There are so few incentives, and so many counter-incentives, it would seem rational people would turn to other things to earn their livelihood.
+excerpt: The hopes, dreams, and motivations of video game developers in Lima, Peru.
 tags: [game industry, Peru, risk, risk perception, funding, job market, talent, skill building]
+url: http://gamelab.mit.edu/making-games-in-peru-3/
 ---
 ([Originally posted at the MIT Game Lab blog](http://gamelab.mit.edu/making-games-in-peru-3/))
 

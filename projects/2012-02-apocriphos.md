@@ -1,9 +1,9 @@
 ---
-layout: project
+layout: project-v2
 title: Apócriphos / Supay Labs
 shortname: apocriphos
-blurb: An attempt to create an experimental digital publishing house in Peru.
-flag: projects
+subtitle: An experimental digital publishing house in Peru.
+type: project
 date: June 2012
 location: Lima, Peru
 permalink: projects/apocriphos-supay/

@@ -1,9 +1,9 @@
 ---
-layout: project
-title: A Few Good Terrans
+layout: project-v2
+title: Games and Conflict
 shortname: afewgoodterrans
-blurb: A Few Good Terrans is a critical mod of StarCraft 2, designed with the intention of questioning some of the underlying assumptions in the game.
-flag: projects
+subtitle: Exploring how games model and portray social conflict
+type: project
 date: November 2012
 location: Cambridge, MA
 permalink: projects/a-few-good-terrans/

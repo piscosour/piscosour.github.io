@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: article-v2
 title: A Game Design Pop-Up Lab in Guatemala City
 lang: en
-sidebar-header: blog
+type: blog
 excerpt: I've spent the last couple weekends in Guatemala City playing games. Lots of games. All sorts of games. And I'm exhausted.
 tags: [game design, pop-up labs, education, guatemala, protoyping]
 ---
@@ -10,7 +10,10 @@ I've spent the last couple weekends in Guatemala City playing games. Lots of gam
 
 We tend to assume many things about kids. We assume, for example, that they like and enjoy play, and that play is a part of their everyday life. We also tend to assume that kids remain relatively untainted by society, allowed some buffer time before becoming enmeshed into the world of adults and its complexities. But over the last couple weekends I've come to seriously reevaluate these assumptions. I was invited by [Ana Domb](http://yo.anadk.com/), an alum of the [Comparative Media Studies program at MIT](http://cmsw.mit.edu) (where I'm currently at), to help her run a pilot project supported by [the Central American office of Hivos, the Dutch cooperation agency](http://central-america.hivos.org/), working with kids to understand play and games, and to help them learn the skills they need to design their own games. And it's been an extremely interesting challenge to work on.
 
-<img src="/files/prototyping-table.jpg" alt="Our prototyping table" width="80%" />
+<div class="article-image_container">
+	<img src="/files/prototyping-table.jpg" alt="Our prototyping table" class="article-image" />
+	<p>Our prototyping table</p>
+</div>
 
 Right rom the start, we understood this was going to be an experiment for us: we'd be working with at-risk youth from underprivileged communities, who already have trouble staying within the formal education system, and who have very little exposure to creative spaces, or even opportunities for play, experimentation and exploration. And we were figuring out exactly how far we'd be able to push them into becoming designers: without having had exposure to concepts such as ideation, prototyping, iteration, critique, and so on, we wanted to know whether kids would respond and accept these concepts within the limited time we had to explore them.
 
@@ -28,7 +31,10 @@ Every time we tried a new game, we stopped for a while to talk about it. What we
 Prototype, Test, Iterate
 ------------------------
 
-<img src="/files/game-prototype.jpg" alt="An early prototype repurposing a deck of cards as a shifting game board" width="80%" />
+<div class="article-image_container">
+	<img src="/files/game-prototype.jpg" alt="An early prototype repurposing a deck of cards as a shifting game board" class="article-image" />
+	<p>An early prototype repurposing a deck of cards as a shifting game board</p>
+</div>
 
 Towards the end of the first weekend, we were able to start introducing them to some design concepts. We took very small steps into it: after a lot of conversations about games and rules, we decided to just give them an open assignment. We gave them some prototyping materials - a deck of cards, some dice, some tokens - and asked them to come up with a game of their own just using those. All of the groups were able to come up with simple prototypes, and that work became the basis for the second weekend when we just spent all the time building up prototypes: working in groups, kids came up with their own games, then brought in kids from other groups to playtest while they observed and took notes to later iterate based on the data they had gathered. 
 
@@ -36,6 +42,9 @@ Getting them to understand and appreciate iteration was incredibly hard. Coming 
 
 In the end, all the groups were able to come up with working prototypes that the other kids could play through. Prototypes were, of course, not perfect, and they were not supposed to be. We made it clear to them not only that they were not being evaluated, but also that the ultimate result from their games was not really what mattered: what was important was that they would learn and understand what made games fun, so they could afterwards make their own games with their friends and family. Even still, the prototypes were very good, considering they were the result of only four days of work and a first introduction to game design. But what was perhaps most interesting was how kids came to self-identify and describe themselves as designers, and they began adopting the language and logic of the design process: they were aware of revisions, of testing, of improving, and they became proud of their own work.
 
-<img src="/files/playtesting-demo.jpg" alt="Playtesting and demo time" width="80%" />
+<div class="article-image_container">
+	<img src="/files/playtesting-demo.jpg" alt="Playtesting and demo time" class="article-image" />
+	<p>Playtesting and demo time</p>
+</div>
 
 We learnt a lot from the experiment and there are already many ways in which we'd improve the experience for a next revision, and an immediate next step is to process the enormous amounts of data we've come back with and write a paper out of the experience. But as a contained experiment, the process was fascinating and the results were very good, even better than what we originally expected. This wasn't, of course, about turning these kids into full-time designers. It was more about attempting to build a safe space within which they could play, and grow aware of what it meant to play. For most of these kids, having a safe space where they could just play without much further expectations was something incredibly exceptional - so much so that we spent a large amount of time just giving them the reassurance that it was OK to just play and have fun. It seemed hard for them to believe that someone would not only take them out for a field trip, but do so just so they could meet new kids and play games. Once they got past their reservations, and began talking to each other and at us about what they were thinking, things started moving a lot more smoothly. In just a couple weekends we were able to get this group of kids comfortable about playing and talking about it, and willing and able to come up with their own interactive complex information systems - their own games. We were able to provide them with a space where they could be acknowledged for playing, and where they were able to acknowledge their own work as temporary game designers.

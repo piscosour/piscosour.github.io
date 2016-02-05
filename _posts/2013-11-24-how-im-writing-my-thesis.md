@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: article-v2
 title: How I'm Writing My Thesis
 lang: en
-sidebar-header: blog
-excerpt: Now that I'm getting heavily into the writing part of my thesis, I've had the chance to procrastinate on the actual writing by looking into multiple arrangements, setups, and tools to support my actual writing process. There are many things to manage when writing a thesis&#58; references, notes, drafts, citations, layouts, versioning, backups, and perhaps even more depending on your specific field. So I've decided to put together a quick walkthrough about my own process and workflow and how I've set up different tools across the research and writing process, along with links to additional resources.
+type: article
+excerpt: The writing workflow for my thesis, or how to productively procrastinate with Zotero, LaTeX, and GitHub.
 tags: [thesis, writing, workflow, tools, Zotero, LaTeX, BibTex, Git, Github]
 ---
 Now that I'm getting heavily into the writing part of my thesis, I've had the chance to procrastinate on the actual writing by looking into multiple arrangements, setups, and tools to support my actual writing process. There are many things to manage when writing a thesis: references, notes, drafts, citations, layouts, versioning, backups, and perhaps even more depending on your specific field. So I've decided to put together a quick walkthrough about my own process and workflow and how I've set up different tools across the research and writing process, along with links to additional resources.
@@ -19,9 +19,10 @@ There are many tools available that do this, but my personal choice so far has b
 
 If the automatic capture doesn't work (which sometimes happens), you can also add resources based on their ISBN or their DOI numbers. And if all else fails, or you're working with non-standard sources (like documents, audio recordings, or other non-indexed things) you can always do manual entry.
 
-![The Zotero interface allows you to build collections of resources and export references lists for them.](/files/zotero.jpg)
-
-(The Zotero interface allows you to build collections of resources and export reference lists for them.)
+<div class="article-image_container">
+	<img alt="The Zotero interface allows you to build collections of resources and export references lists for them." src="/files/zotero.jpg" class="article-image" />
+	<p>The Zotero interface allows you to build collections of resources and export references lists for them</p>
+</div>
 
 Zotero is also super helpful for writing: the [MS Word Zotero Connector](http://www.zotero.org/support/word_processor_plugin_installation) adds an extra toolbar to your Word layout specifically for citation management. This allows you to introduce citations referencing something on the Zotero database directly, then automatically generating a list of references used when you're done, and making it super simple to switch between citation styles like Chicago, APA, MLA, or whatever works for you. If this is something that you spend a lot of time thinking about, you need to stop - computers are much better at doing this, and your procrastination time can be better spent elsewhere.
 
@@ -46,9 +47,10 @@ Now, learning your way around LaTeX can be hard, especially if you have no codin
 
 The LaTeX package for Mac OS X, [MacTex](http://tug.org/mactex/), comes with pretty much everything you need to get started and even with packages and macros that make a lot of things easier. I like to use [Sublime Text](http://www.sublimetext.com/) to do my writing which also has TeX syntax highlighting, and then just use the pdflatex command on the terminal (included in MacTex) to generate my output, which is generally a nice looking PDF file. And you can find tutorials, templates and tools around the web to do most anything.
 
-![A sample base LaTeX file using MIT's thesis template. Packages and files are imported into this file to be processed for output.](/files/latex.jpg)
-
-(A sample base LaTeX file using MIT's thesis template. Packages and files are imported into this file to be processed for output.)
+<div class="article-image_container">
+	<img alt="A sample base LaTeX file using MIT's thesis template. Packages and files are imported into this file to be processed for output." src="/files/latex.jpg" class="article-image" />
+	<p>A sample base LaTeX file using MIT's thesis template. Packages and files are imported into this file to be processed for output</p>
+</div>
 
 TeX and LaTeX have been primarily used for writing in natural sciences and mathematics, where lots of typesetting of equations and formulas take place, but you can really use it for anything if you find it convenient. At MIT, there's even [LaTeX thesis templates](http://web.mit.edu/thesis/tex/) available that have a lot of the scaffolding already in place, and I'm sure there must be similar options at other schools - you can then add any specific packages or options you want to use directly into those. And because LaTeX is pretty modular, you can split up large documents into individual files and then include the pieces into a master layout, which makes it easy to include or exclude things just by commenting out lines, or to reformat sections if you wanted to turn a paper into a chapter or an article, or the other way around.
 
@@ -104,9 +106,10 @@ If you don't know Git, it's a version control system used by programmers to keep
 
 While this works really well with code, it can also be really helpful for writing, when you're adding and trying pieces, sometimes rolling back to previous versions. Git can keep track of all of that really efficiently for you. Even better still: if you use [Github](https://github.com/), you can even keep a copy of your "repository" - the directory you're keeping track of - online, and use Github's client (available for [Mac](http://mac.github.com/) and [Windows](http://windows.github.com/)) to manage committing changes and pushing them online. By doing this, you not only have versioning, but you also keep an online backup of everything that you can easily clone to any other machine if needed.
 
-![The Github application keeps track of changes to files, including additions and deletions, every time you commit changes.](/files/github.jpg)
-
-(The Github application keeps track of changes to files, including additions and deletions, every time you commit changes.)
+<div class="article-image_container">
+	<img alt="The Github application keeps track of changes to files, including additions and deletions, every time you commit changes." src="/files/github.jpg" class="article-image" />
+	<p>The Github application keeps track of changes to files, including additions and deletions, every time you commit changes</p>
+</div>
 
 Setting this up is super simple. First, make sure you have a Github account - I signed up for one of their paid plans so I could store everything in a private repository rather than a public one. Then download the Github application, and with it you can initialise a repository file wherever you're currently housing your writing files. Github manages all the behind-the-scenes action of initialising Git for you, and using the application, whenever there are changes made to the files in that folder, you have the choice of committing them (basically, saving changes) and then synching to Github for online storage.
 

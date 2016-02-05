@@ -1,13 +1,14 @@
 ---
-layout: project
+layout: project-v2
 title: Taller Volador
 shortname: tallervolador
-blurb: Building creativity and design skills with at-risk youth in Guatemala through game design. 
-flag: projects
+subtitle: Building creativity and design skills with at-risk youth in Guatemala through game design
+type: project
 date: October 2013
 location: Guatemala City, Guatemala
 permalink: projects/taller-volador/
 featured-image: /files/playtesting-demo.jpg
+featured: true
 ---
 In October 2013, Taller Volador gathered a group of at-risk youth from inside and outside Guatemala City to teach them about play, and about becoming the designers of their own games.
 

@@ -1,9 +1,9 @@
 ---
-layout: project
+layout: project-v2
 title: Columnista
+subtitle: A political column text generation system
 shortname: columnista
-blurb: A text generation system that produces short political columns for the Peruvian context - and a meta critique of political punditry.
-flag: projects
+type: project
 date: May 2014
 permalink: projects/columnista/
 featured-image: /files/prensa.jpg
