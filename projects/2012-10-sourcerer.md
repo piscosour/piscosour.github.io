@@ -2,7 +2,7 @@
 layout: project-v2
 title: Sourcerer
 shortname: sourcerer
-subtitle: How can we create simple tools to assist journalists in navigating complex issues, such as science and pharma reporting?
+subtitle: Designing simple tools to help journalists navigate complex issues
 type: project
 date: October 2012
 location: Cambridge, MA
