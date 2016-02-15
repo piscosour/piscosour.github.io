@@ -32,17 +32,29 @@ The project was evaluated by <a href="http://tltaylor.com/">T.L. Taylor</a> (my 
 
 <div class="row page-blocks project-resources">
 	<div class="col-md-3 col-sm-4 col-xs-6">
-		<p class="project-resources_icon"><span class="glyphicon glyphicon-file" aria-hidden="true"></span></p>
-		<p><a href="http://marisca.pe/files/EM-DGW-Final.pdf">Developing Game Worlds: Gaming, Technology, and Innovation in Peru</a></p>
+		<div class="project-resources_block">
+			<a href="http://marisca.pe/files/EM-DGW-Final.pdf">
+				<p class="project-resources_icon"><span class="glyphicon glyphicon-file" aria-hidden="true"></span></p>
+				<p>Developing Game Worlds: Gaming, Technology, and Innovation in Peru</p>
+			</a>
+		</div>
 	</div>
 	<div class="col-md-3 col-sm-4 col-xs-6">
-		<p class="project-resources_icon"><span class="glyphicon glyphicon-file" aria-hidden="true"></span></p>
-		<p><a href="http://marisca.pe/files/EM-DGW-ResearchSummary.pdf">Developing Game Worlds</a></p>
-		<p>Research Summary</p>
+		<div class="project-resources_block">
+			<a href="http://marisca.pe/files/EM-DGW-ResearchSummary.pdf">
+				<p class="project-resources_icon"><span class="glyphicon glyphicon-file" aria-hidden="true"></span></p>
+				<p>Developing Game Worlds</p>
+				<p>Research Summary</p>
+			</a>
+		</div>
 	</div>
 	<div class="col-md-3 col-sm-4 col-xs-6">
-		<p class="project-resources_icon"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span></p>
-		<p><a href="http://marisca.pe/files/EM-DGW-Presentation.pdf">Playful Ventures: Technology Entrepreneurship and Peripheral Innovation in the Peruvian Game Industry</a></p>
-		<p>Presentation slides</p>
+		<div class="project-resources_block">
+			<a href="http://marisca.pe/files/EM-DGW-Presentation.pdf">
+				<p class="project-resources_icon"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span></p>
+				<p>Playful Ventures: Technology Entrepreneurship and Peripheral Innovation in the Peruvian Game Industry</p>
+				<p>Presentation slides</p>
+			</a>
+		</div>
 	</div>
 </div>

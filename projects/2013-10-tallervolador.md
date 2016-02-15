@@ -18,8 +18,38 @@ But we wanted to go beyond just play: we wanted to show kids how they could beco
 
 After a couple weekends, kids went home with hand-made copies of their prototypes to share with friends and family, and they began to self-identify as "game designers". But the experience also helped some kids open up about personal and emotional issues they became willing to share because of the safe space provided by the play experience: within this isolated portion of the world, kids discovered they could create and share without the risk of being shut down.
 
-<h4>Related:</h4>
-<ul>
-	<li><a href="http://marisca.pe/2013/10/23/a-game-design-pop-up-lab.html">A Game Design Pop-Up Lab in Guatemala City</a></li>
-	<li><a href="http://central-america.hivos.org/news/hivos-held-first-game-lab-guatemala">Hivos held first game lab in Guatemala</a></li>
-</ul>
+<div class="row project-photos">
+	<div class="project-photos_block col-lg-6 col-md-4 col-sm-6 col-xs-12">
+		<img src="/files/playtesting-demo.jpg" class="project-photos_picture">
+	</div>
+	<div class="project-photos_block col-lg-6 col-md-4 col-sm-6 col-xs-12">
+		<img src="/files/prototyping-table.jpg" class="project-photos_picture">
+	</div>
+	<div class="project-photos_block col-lg-6 col-md-4 col-sm-6 col-xs-12">
+		<img src="/files/game-prototype.jpg" class="project-photos_picture">
+	</div>
+	<div class="project-photos_block col-lg-6 col-md-4 col-sm-6 col-xs-12">
+		<img src="/files/tv4.jpg" class="project-photos_picture">
+	</div>
+</div>
+
+<h3>Learn More</h3>
+
+<div class="row page-blocks project-resources">
+	<div class="col-md-3 col-sm-4 col-xs-6">
+		<div class="project-resources_block">
+			<a href="http://marisca.pe/2013/10/23/a-game-design-pop-up-lab.html">
+				<p class="project-resources_icon"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></p>
+				<p>A Game Design Pop-Up Lab in Guatemala City</p>
+			</a>
+		</div>
+	</div>
+	<div class="col-md-3 col-sm-4 col-xs-6">
+		<div class="project-resources_block">
+			<a href="http://central-america.hivos.org/news/hivos-held-first-game-lab-guatemala">
+				<p class="project-resources_icon"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></p>
+				<p>Hivos held first game lab in Guatemala</p>
+			</a>
+		</div>
+	</div>
+</div>

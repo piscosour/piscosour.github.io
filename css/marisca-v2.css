@@ -28,6 +28,10 @@
 	line-height: 45px;
 }
 
+.headline h2.white {
+	color: #FFFFFF;
+}
+
 .headline h1.title_translation {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 48px;
@@ -48,6 +52,24 @@
 	margin-bottom: 0px;
 }
 
+#home-main .headline h1, h2 {
+	color: white;
+}
+
+video#bgvid { 
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
 
 /* home-nav block includes the main navigation links for the homepage only */
 
@@ -56,13 +78,13 @@
 }
 
 .home-nav a {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 .home-nav .home-nav_link {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 28px;
-	color: #000000;
+	color: #FFFFFF;
 	line-height: 48px;
 }
 
@@ -105,7 +127,6 @@
 .footer .footer-text {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
-	color: #000000;
 	line-height: 20px;
 }
 
@@ -121,7 +142,9 @@
 .home-footer {
 	position: relative;
 	bottom: 0;
+	color: #FFFFFF;
 }
+
 .page-footer {
 	background-color: #2A928F;
 }
@@ -228,6 +251,21 @@
 .project-resources p.project-resources_icon {
 	font-size: 80px;
 	margin-bottom: 20px;
+}
+
+.project-resources_block {
+	padding: 20px;
+	min-height: 250px;
+}
+
+.project-resources_block:hover {
+	background-color: #F4A261;
+	color: white;
+}
+
+.project-resources_block a {
+	display: block;
+	text-decoration: none;
 }
 
 .project-photos {
@@ -377,5 +415,17 @@
 @media screen and (min-width: 0px) and (max-width: 640px) {
 	.footer { 
 		display: none; 
+	}
+}
+
+/* hideo video background for home page on smaller screens */
+
+@media screen and (max-device-width: 640px) {
+	html {
+		background-color: #000000;
+	}
+
+	#bgvid {
+		display: none;
 	}
 }
