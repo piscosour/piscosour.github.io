@@ -268,7 +268,8 @@ video#bgvid {
 	text-decoration: none;
 }
 
-.project-photos {
+.project-photos,
+.project-video {
 	margin-top: 40px;
 	margin-bottom: 60px;
 }
@@ -285,6 +286,11 @@ video#bgvid {
 	object-fit: cover;
 }
 
+.project-video_embed {
+	width: 100%;
+	height: 100%;
+}
+
 /* styles related to the portfolio gallery */
 
 .portfolio-card_frame {
@@ -298,8 +304,12 @@ video#bgvid {
 
 .portfolio-card_content {
 	padding: 15px;
-	background-color: #2A928F;
+	background-color: #F4A261;
 	min-height: 250px;
+}
+
+.portfolio-card_content:hover {
+	background-color: #E76F51;
 }
 
 .portfolio-card_content h1 {

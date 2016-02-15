@@ -7,13 +7,24 @@ type: portfolio
 <div class="row">
 	<div class="col-md-12 col-sm-12 col-xs-12">
 		<div id="english">
-			<p>These are some design and research projects and experiments I’ve been a part of in recent years, both large and small.</p>
+			<p>These are some of the design and research projects and experiments I’ve been a part of in recent years. (There's a number of really cool projects I can't talk about for confidentiality reasons, though, which is a bummer.)</p>
 		</div>
 		<div id="spanish">
-			<p class="paragraph-translation">// Estos son algunos de los proyectos y experimentos de investigación y diseño, grandes y chicos, de los que he sido parte en los últimos años.</p>
+			<p class="paragraph-translation">// Estos son algunos de los proyectos y experimentos de investigación y diseño, grandes y chicos, de los que he sido parte en los últimos años (hay varios proyectos que no puedo incluir por temas de confidencialidad, lo cual es una pena).</p>
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+var colors = ["rgb(42, 146, 143)", "rgb(233, 196, 106)", "rgb(244, 162, 97)", "rgb(233, 111, 81)"];
+
+var colorPicker = function() {
+	var pick = colors[Math.floor(Math.random() * colors.length)];
+
+	return pick;
+}
+
+</script>
 
 <div class="row">
 	<div class="col-md-12 col-xs-12">
@@ -21,7 +32,7 @@ type: portfolio
 		{% if page.type == 'project' %}
 		<div class="{% if page.featured %}col-md-8 col-sm-8 col-xs-12{% else %}col-md-4 col-sm-4 col-xs-12{% endif %} portfolio-card_frame">
 			<a href="{{ page.url }}">
-				<div class="portfolio-card_content">
+				<div class="portfolio-card_content" style="background-color: {{ ['rgb(42, 146, 143)','rgb(233, 196, 106)','rgb(244, 162, 97)', 'rgb(233, 111, 81)']|random }}">
 					<h1>{{ page.title }}</h1>
 					<h2>{{ page.subtitle }}</h2>
 				</div>
