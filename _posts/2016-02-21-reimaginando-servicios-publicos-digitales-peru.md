@@ -18,8 +18,8 @@ En el Perú, más allá de islas que están haciendo trabajo interesante, no ten
 
 Hice el ejercicio empezando por algo que pudiera imaginarse con mucho potencial, pero que al mismo tiempo reflejara la importancia de pensar en piezas básicas de infraestructura y arquitectura. Y se me ocurrió que un buen punto de partida era el proceso de registro de nuevas empresas. Por un lado, es un proceso que requiere de la participación de múltiples organismos, pero además es un proceso conectado directamente con uno de los problemas más complicados que tiene el país: la informalidad. Un servicio digital de registro de empresas podría simplificar el flujo haciéndolo más accesible a más personas, incentivando la formalización. 
 
-Rediseñar el proceso de creación de empresas
-============================================
+Un ejercicio: rediseñar el proceso de registro de empresas
+----------------------------------------------------------
 
 En su portal de servicios al ciudadano, el Estado ofrece la posibilidad de <a href="https://www.sunarp.gob.pe/w-sid/index.html">realizar el trámite de registro de una empresa en línea</a>, y con una promesa de terminarlo en un lapso de 72 horas. En sí mismo, eso es bastante interesante, e incluso existen <a href="http://www.cofide.com.pe/cofideportal/main/">servicios como los de COFIDE que brindan asesoría en todo el proceso</a>. Y aún con todo eso, <a href="http://diegoe.be/2015/05/11/como-poner-una-empresa-facil-en-peru/">el proceso es confuso y costoso</a> y <a href="http://diegoe.be/2015/09/17/como-poner-una-empresa-facil-en-peru-parte-02/">no brinda visibilidad ni integración entre las diferentes partes que están involucradas</a> ni en cómo se integran una vez formada la empresa.
 
