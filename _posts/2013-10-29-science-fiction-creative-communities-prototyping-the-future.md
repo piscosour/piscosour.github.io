@@ -5,6 +5,7 @@ lang: en
 type: article
 excerpt: How imagined technologies in science fiction can help us think about the implications of possible futures.
 tags: [creative communities, science fiction, prototyping, MIT Media Lab, social movements, participation, engagement, social contract]
+permalink: science-fiction-creative-communities/
 ---
 I've been reading a lot of science fiction lately, for an [MIT Media Lab](http://media.mit.edu) class I'm taking called [Science Fiction to Science Fabrication](http://scifi2scifab.media.mit.edu/). In the class, we look at examples of technologies depicted in science fiction and try to think through the design and implementation issues that would come from actually having them around, as well as how they would affect their social environment.
 

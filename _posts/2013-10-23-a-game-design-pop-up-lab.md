@@ -5,6 +5,7 @@ lang: en
 type: blog
 excerpt: I've spent the last couple weekends in Guatemala City playing games. Lots of games. All sorts of games. And I'm exhausted.
 tags: [game design, pop-up labs, education, guatemala, protoyping]
+permalink: game-design-popup-lab-guatemala/
 ---
 I've spent the last couple weekends in Guatemala City playing games. Lots of games. All sorts of games. And I'm exhausted.
 
