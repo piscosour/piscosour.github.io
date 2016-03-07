@@ -2,7 +2,7 @@
 layout: project-v2
 title: Ecosistemas de Aprendizaje
 shortname: ecosistemas-de-aprendizaje
-subtitle: Diseño, tecnología, y educación ubicua
+subtitle: Design, Technology, and Ubiquitous Learning
 type: project
 date: November 2015
 location: Lima, Peru
