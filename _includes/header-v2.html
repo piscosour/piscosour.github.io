@@ -14,7 +14,7 @@
 	<!-- Open Graph data -->
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" />
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content="http://marisca.pe/" />
+	<meta property="og:url" content="{{ page.url }}" />
 	<meta property="og:image" content="http://marisca.pe/files/castor.jpg" />
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% elsif page.subtitle %}{{ page.subtitle }} {% endif %}" />
 
