@@ -8,6 +8,7 @@ location: Lima, Peru
 type: project
 permalink: projects/sencillo/
 ---
+{% include project-info-v2.html %}
 Sencillo is a prototype for an electronic money platform/concept designed for Peru.
 
 Sencillo works as a simple, open framework for other people to build applications providing rich functionality. It provides basic-level functions that enable transactions between parties, where parties can initiate transactions either through a web-based platform, text messaging, or using any node connected to the network as a bridge to the platform.

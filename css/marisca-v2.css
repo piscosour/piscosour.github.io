@@ -291,6 +291,35 @@ video#bgvid {
 	height: 100%;
 }
 
+/* box with project details */
+
+.project-data_container {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.project-data_box {
+	padding: 20px;
+	background-color: rgb(200,200,200)
+}
+
+.project-data_box h3 {
+	font-size: 130%;
+	line-height: 120%;
+	margin-top: 0;
+}
+
+.project-data_box h4 {
+	font-size: 100%;
+	line-height: 120%;
+}
+
+.project-data_box p {
+	font-size: 90%;
+	line-height: 130%;
+}
+
 /* styles related to the portfolio gallery */
 
 .portfolio-card_frame {

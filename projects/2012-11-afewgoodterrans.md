@@ -8,7 +8,9 @@ date: November 2012
 location: Cambridge, MA
 permalink: projects/a-few-good-terrans/
 featured-image: /files/afgt-marines.jpg
+team: [Eduardo Marisca, Lingyuxiu Zhong]
 ---
+{% include project-info-v2.html %}
 Video games present an especially interesting opportunity to consider issues of identity performance in the context of conflict. In playing the role of digital avatars, we can be virtually confronted with performing the role of an identity different than our own. Not only is it a matter of outside contemplation, but following Erving Goffman’s notion of performative identities [1], we’re actually able to experience the world from a different point of view. Various forms of conflict, either social or interpersonal, often stem from or are radicalized by the fact that positions engaged in conflict are unable to understand the logic and objectives of one another. When one’s own perspective is understood as logical and even necessary, as opposed to historical and contingent, there’s an incapacity to acknowledge the value and legitimacy to the claims on the other side of the table.
 
 This is often the case because the cultural models playing into our assumptions are assumed uncritically [2]. There’s nothing wrong with cultural models per se – they’re simply shared frameworks within which we make decisions – but they exert strong influence on our behavior in ways that often goes unexamined. Furthermore, when confronted with cultural models that directly challenge our own, we will naturally tend to shelter ourselves within our beliefs and assumptions as a protective measure.

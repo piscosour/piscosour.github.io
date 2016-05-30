@@ -5,14 +5,17 @@ shortname: radix
 subtitle: Massively multiplayer online game to develop high school STEM skills
 type: project
 date: September 2012 - May 2014
-location: Lima, Peru
+location: Cambridge, MA
 permalink: projects/radix/
 featured-image: /files/radix.png
+team: [Susannah Gordon-Messer, Eric Klopfer, Eduardo Marisca, Louisa Rosenheck, Scot Osterweil, Angie Tung, Lingyuxiu Zhong, et al.]
+partners: [Bill & Melinda Gates Foundation, Filament Games]
 ---
 <div class="row project-video">
 	<iframe class="project-video_embed" src="//www.youtube.com/embed/2ZJsnhqRf3E?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
+{% include project-info-v2.html %}
 As a Research Assistant at the <a href="http://education.mit.edu">MIT Education Arcade</a>, I had a chance to be a part of the team building <a href="http://www.radixendeavor.org">The Radix Endeavor</a>, an online, massively multiplayer video game designed to develop science and math skills (STEM) in high school kids. Radix works in tandem with the regular high school curriculum, providing students with a "testing ground" where they can experiment with the concepts they learn in class by applying them to problems that happen in the game world. The project was developed with funding from the Gates Foundation.
 
 The design methodology of Radix is especially interesting because it doesn't try to become a teacher substitute or a standalone learning experience. It was designed in collaboration with high school teachers who provided constant feedback as to how kids usually related to the science and math curriculum, and it is intended to support said curriculum. 

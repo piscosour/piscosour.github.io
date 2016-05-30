@@ -5,9 +5,11 @@ subtitle: A political column text generation system
 shortname: columnista
 type: project
 date: May 2014
+location: Cambridge, MA
 permalink: projects/columnista/
 featured-image: /files/prensa.jpg
 ---
+{% include project-info-v2.html %}
 How do political columns and columnists contribute to informed conversations about government and institutions? In Peru, the fact is that for the most part they don't. In all fairness, there's only so much you can say with only 300 to 500 words - a lot of important detail gets cut, a lot of meaningful nuance has to be left out, and thesis have to be emphasised, if not exaggerated, in the interest of good communication.
 
 All of this, of course, operates at the expense of precisely those elements that would contribute towards strengthening and enriching our democratic conversation. Columnista was built to bring attention to the underlying logics and processes that govern the production of these texts: how could you design a text generation system capable of producing almost limitless permutations of these only apparently significant texts? If an algorithm could produce a sequence of expressions that was plausible enough for an average reader - passing a sort of political column Turing test - what would the implications be for our understanding of political discourse in media in general?

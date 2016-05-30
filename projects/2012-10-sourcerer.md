@@ -8,7 +8,9 @@ date: October 2012
 location: Cambridge, MA
 permalink: projects/sourcerer/
 featured-image: /files/pharma.jpg
+team: [Rodrigo Davies, Alex Gonçalves, Eduardo Marisca, Lingyuxiu Zhong]
 ---
+{% include project-info-v2.html %}
 Sourcerer is a browser extension that helps journalists and readers to understand and interpret scientific reports. It is based on a simple set of metrics that highlight key information about studies and provides a means for readers to explore other relevant information on their topic, drug, or company of interest. Sourcerer is compatible with Google Chrome and is currently functional in a proof-of-concept form. This project was assembled for MIT's CMS.950 graduate class, Workshop in Comparative Media, by Alex Gonçalves, Eduardo Marisca, Lingyuxiu Zhong and Rodrigo Davies.
 
 <h3>Initial Design</h3>

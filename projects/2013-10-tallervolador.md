@@ -9,7 +9,10 @@ location: Guatemala City, Guatemala
 permalink: projects/taller-volador/
 featured-image: /files/playtesting-demo.jpg
 featured: true
+team: [Ana Domb, Eduardo Marisca, Daniela Montero, Ana Sofía Ruiz]
+partners: [Hivos]
 ---
+{% include project-info-v2.html %}
 In October 2013, Taller Volador gathered a group of at-risk youth from inside and outside Guatemala City to teach them about play, and about becoming the designers of their own games.
 
 We worked with a number of kids who for various reasons did not have everyday access to play experiences --- either because they came from a rural area where they were expected to be doing work whenever they were not in school, or because they came from an urban area where violence and insecurity made it complicated for them to ever leave their homes. As a result, these kids were being deprived from the foundational experience of play. Our taks was, firstly, to re-acquaint them with play and to introduce them to forms of play they were unfamiliar with by experimenting with very different sorts of games, and by doing so, to introduce them to the underlying concepts that made games fun and play engaging.

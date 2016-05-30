@@ -7,7 +7,9 @@ date: January 2013
 location: Cambridge, MA
 type: project
 permalink: projects/organ-trail/
+team: [Eduardo Marisca, Don Mitchell]
 ---
+{% include project-info-v2.html %}
 <a href="http://2013.globalgamejam.org/2013/organ-trail">Organ Trail</a> was a game prototype built along with Don Mitchell for the 2013 <a href="http://globalgamejam.org/">Global Game Jam</a>, where the prompt for design was the sound of a heartbeat.
 
 The game is designed to convey the anxieties of being an organ recipient, as well as the complexity of the organ donation system: specifically, how the whole system is built on a system of fragile public trust, and how events in the world can sway public opinion in life-changing ways for many people.

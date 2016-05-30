@@ -7,7 +7,9 @@ date: April 2009 - May 2012
 location: Buenos Aires, Argentina + Lima, Peru
 type: project
 permalink: projects/changemakers/
+team: [Robert Benedict, Jon Camfield, Chris Heald, Eduardo Marisca, Rares Pamfil, Leland Smith]
 ---
+{% include project-info-v2.html %}
 <a href="http://www.changemakers.com">Changemakers</a> is an online platform for sourcing and supporting social innovation, launched in 2006 by <a href="http://www.ashoka.org">Ashoka</a>, a global network of high-impact social entrepreneurs. While I was part of the Changemakers team, their model was focused on running online innovation competitions, where people from around the world could pitch their ideas around social challenges and gain access to funding, connections and exposure to media and partners.
 
 Working as Site Admin and Community Liaison with the technology team at Changemakers, I worked on creating and managing site content and designing new platform features for the Latin American team, working out of Lima, Peru and then moving to the Changemakers hub in Buenos Aires, Argentina. This gave me the opportunity to connect and engage to social innovators in various areas across Latin America, identifying common needs and trying to design products and features that could help them increase and accelerate their impact.
