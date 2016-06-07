@@ -8,7 +8,7 @@ type: blog
 	<div class="col-md-12 col-xs-12">
 		{% for post in site.posts %}
 		<div class="col-xs-12 blog-card_container">
-			<a class="blog-card_link" href="{{ post.url }}">
+			<a class="blog-card_link" href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}">
 				<div class="blog-card">
 					<h1>{{ post.title }}</h1>
 					<h2>{{ post.excerpt }}</h2>
