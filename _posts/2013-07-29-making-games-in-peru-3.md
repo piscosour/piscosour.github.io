@@ -5,7 +5,7 @@ lang: en
 sidebar-header: blog
 excerpt: The hopes, dreams, and motivations of video game developers in Lima, Peru.
 tags: [game industry, Peru, risk, risk perception, funding, job market, talent, skill building]
-url: http://gamelab.mit.edu/making-games-in-peru-3/
+external_url: http://gamelab.mit.edu/making-games-in-peru-3/
 ---
 ([Originally posted at the MIT Game Lab blog](http://gamelab.mit.edu/making-games-in-peru-3/))
 

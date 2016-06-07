@@ -4,7 +4,7 @@ title: Making Games in Peru, 2&#58; Finding a Place in the Global Industry
 lang: en
 excerpt: How new technologies, tools, and platforms are opening up opportunities for Peruvian-made video games to make it out into the world.
 tags: [game industry, globalisation, digital distribution, Steam, Peru, long tail, localisation]
-url: http://gamelab.mit.edu/making-games-in-peru-2/
+external_url: http://gamelab.mit.edu/making-games-in-peru-2/
 ---
 ([Originally posted at the MIT Game Lab blog](http://gamelab.mit.edu/making-games-in-peru-2/))
 
