@@ -1,11 +1,12 @@
 ---
-layout: article-v2
+layout: article-v3
 title: GDC14 with the IGDA Scholars
 lang: en
 type: article
 excerpt: How I got to attend the 2014 Game Developer Conference through the IGDA Scholars program, and got to observe up close how the global game industry operates from a highly concentrated and intense experience.
 tags: [GDC14, IGDA Scholars, game industry, game development]
 permalink: gdc14-igda-scholars/
+author: Eduardo Marisca
 ---
 Given it's been about two months since this year's [Game Developer Conference](http://www.gdconf.com/) (GDC) happened in San Francisco, it almost feels a tad late to be doing a writeup about it just now. But it's really taken me this long to process much of what was going on during on the game industry's largest and most important events --- and factoring a whole bunch of it into the final version of my thesis. I had the opportunity to attend GDC because of an [IGDA Scholarship](http://scholars.igda.org/) providing an all-access pass to the event and a whole bunch of side activities that were especially meaningful in providing me with a behind-the-scenes perspective into the game industry's past, present, and future.
 

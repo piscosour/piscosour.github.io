@@ -1,0 +1,5 @@
+<h1 class="title">{{ page.title }}{% if page.title_translation %}<span class="title is-size-3 has-text-grey-dark"> | {{ page.title_translation }}</span>{% endif %}</h1>
+
+{% if page.subtitle %}<h2 class="has-text-centered">{{ page.subtitle }}</h2>{% endif %}
+
+{% if page.date %}{% if page.type == "article" %}<p class="is-size-6 has-text-centered">{% if page.author %}{{ page.author }} | {% endif %}{{ page.date | date_to_string}}</p>{% endif %}{% endif %}

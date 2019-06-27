@@ -1,11 +1,12 @@
 ---
-layout: article-v2
+layout: article-v3
 title: Una API para nuestra memoria colectiva
 lang: es
 type: article
 excerpt: Una versión nativa digital de las Conclusiones del Informe Final de la CVR, incluyendo reconocimiento de entidades, una API simple y un frontend web.
 tags: [cvr, informe final, derechos humanos, peru, conclusiones, json, node.js, feliz28, hacerpatria]
 permalink: una-api-para-nuestra-memoria-colectiva/
+author: Eduardo Marisca
 ---
 Este fin de semana largo he tenido tiempo para seguir avanzando el trabajo que empecé hace tiempo con [la digitalización del Informe Final de la Comisión de la Verdad y la Reconciliación](http://marisca.pe/adaptando-informe-final-cvr-mundo-digital/) . Soy de la idea de que un documento de tal magnitud como el IF tiene que tener una representación digital que facilite su análisis, su procesamiento, su difusión y, sobre todo, su discusión. Pero a pesar de que se presentó hace apenas trece años, el IF no cuenta con una buena versión digital o interactiva: fue pensado, preparado y finalmente publicado bajo la lógica del documento impreso.
 

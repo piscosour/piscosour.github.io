@@ -1,11 +1,12 @@
 ---
-layout: article-v2
+layout: article-v3
 title: Reimaginando los servicios p&uacute;blicos digitales en el Per&uacute;
 lang: es
 type: article
 excerpt: ¿Cómo podemos usar tecnologías digitales para mejorar la manera como los servicios públicos interactúan con los ciudadanos?
 tags: [servicios publicos, transformacion digital, experiencia de usuario, diseño de interacciones]
 permalink: reimaginando-servicios-publicos-digitales-peru/
+author: Eduardo Marisca
 ---
 La experiencia de interactuar con el Estado peruano es en el mejor de los casos irritante, en el peor de ellos traumática. La burocracia estatal pareciera haber sido construida con el propósito de servirse a sí misma más que al ciudadano. Si a eso sumamos el desborde y colapso de la mayoría de servicios públicos, nos encontramos con un universo de interacciones que son obligatorias para todo el mundo, pero felices para nadie: ni para quienes tienen que realizarlas ni para quienes tienen que operarlas, generando un círculo vicioso de desconfianza y desconexión del Estado y los ciudadanos.
 

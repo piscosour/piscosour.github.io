@@ -1,10 +1,10 @@
 ---
-layout: blog-v2
+layout: blog-v3
 title: Things I Write
 title_translation: Cosas que escribo
 type: blog
 ---
-<div class="row">
+<!--<div class="row">
 	<div class="col-md-12 col-xs-12">
 		{% for post in site.posts %}
 		<div class="col-xs-12 blog-card_container">
@@ -17,5 +17,40 @@ type: blog
 			</a>
 		</div>
 		{% endfor %}
+	</div>
+</div>-->
+
+<div class="container">
+	<div class="columns">
+		<div class="column">
+			{% for post in site.posts %}
+				{% if post.lang == 'en' %}
+					<article class="media">
+						<a class="blog-card_link" href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}">
+							<div class="media-content">
+								<p class="is-size-6"><strong>{{ post.title }}</strong> | <small>{{ post.date | date_to_string }}</small><br />
+									{{ post.excerpt }}
+								</p>
+							</div>
+						</a>
+					</article>
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div class="column">
+			{% for post in site.posts %}
+				{% if post.lang == 'es' %}
+					<article class="media">
+						<a class="blog-card_link" href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}">
+							<div class="media-content">
+								<p class="is-size-6"><strong>{{ post.title }}</strong> | <small>{{ post.date | date_to_string }}</small><br />
+									{{ post.excerpt }}
+								</p>
+							</div>
+						</a>
+					</article>
+				{% endif %}
+			{% endfor %}
+		</div>
 	</div>
 </div>

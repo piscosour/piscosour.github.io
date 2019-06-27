@@ -1,0 +1,12 @@
+---
+layout: portfolio-v2
+title: Things I Do
+title_translation: Cosas que hago
+type: portfolio
+---
+
+{% for page in site.pages reversed %}
+	{% if page.type == 'venture' %}
+		<p><a href="{{ page.url }}">{{ page.title }}</a></p>
+	{% endif %}
+{% endfor %}

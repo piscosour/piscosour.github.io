@@ -1,11 +1,12 @@
 ---
-layout: article-v2
+layout: article-v3
 title: A Game Design Pop-Up Lab in Guatemala City
 lang: en
 type: blog
 excerpt: I've spent the last couple weekends in Guatemala City playing games. Lots of games. All sorts of games. And I'm exhausted.
 tags: [game design, pop-up labs, education, guatemala, protoyping]
 permalink: game-design-popup-lab-guatemala/
+author: Eduardo Marisca
 ---
 I've spent the last couple weekends in Guatemala City playing games. Lots of games. All sorts of games. And I'm exhausted.
 

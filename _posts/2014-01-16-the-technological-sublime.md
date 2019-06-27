@@ -1,11 +1,12 @@
 ---
-layout: article-v2
+layout: article-v3
 title: The Technological Sublime
 lang: en
 type: article
 excerpt: Notes on the technological sublime, and how we interpret the connection between social and technological change.
 tags: [technological sublime, colonial sublime, Immanuel Kant, Leo Marx, James Carey, Brian Larkin, STS, philosophy, aesthetics]
 permalink: the-technological-sublime/
+author: Eduardo Marisca
 ---
 So I found myself referencing the concept of the "technological sublime" repeatedly, without having actually stopped for a moment to consider what I was talking about. Only then did I realise it was not the spoon that bent, it was only myself --- that is, I realised the category was not as commonplace and clearly defined as I assumed it to be, and decided to go down the rabbit hole to pinpoint more clearly what I was trying to say when summoning the technological sublime as a conceptual Pokémon.
 

@@ -18,16 +18,18 @@
 	<meta property="og:image" content="http://marisca.pe/files/castor.jpg" />
 	<meta property="og:description" content="" />
 
-	<!-- Get Bootstrap from CDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	
+	<!-- Get Bulma from CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
 
-	<!-- New v2 stylesheet -->
-	<link href="/css/marisca-v2.css" rel="stylesheet" type="text/css">
+	<!-- New v3 stylesheet -->
+	<link href="/css/marisca-v3.css" rel="stylesheet" type="text/css">
 
-	<!-- Fonts for v2: Montserrat + Libre Baskerville-->
+	<!-- Fonts for v3: Montserrat + Libre Baskerville-->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
 
+	<!--FontAwesome icons -->
+	<script src="https://kit.fontawesome.com/c4ed666acb.js"></script>
+	
 	<!-- GAnalytics code same as v1 -->
 	<script type="text/javascript">
 
@@ -47,26 +49,126 @@
 </head>
 
 <body>
-<div class="col-xs-12 header">
-	<div class="container">
-		<div class="header-nav">
-			<a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a><a href="/about"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a><a href="/projects"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a><a href="/blog"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
-		</div>
-	</div>
+<!--<nav class="navbar has-text-centered" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div class="navbar-menu is-active">
+    <div class="navbar-start">
+      <a class="navbar-item is-size-6" href="/">
+        Home
+      </a>
+
+      <a class="navbar-item" href="/about">
+        About
+      </a>
+
+      <a class="navbar-item" href="/blog">
+        Blog
+      </a>
+    </div>
+
+  </div>
+</nav>-->
+
+<div class="has-text-centered header-nav">
+  <a class="has-text-black" href="/">
+    <span class="icon">
+    <i class="fas fa-home"></i>
+  </span>
+  </a>
+  <a class="has-text-black" href="/about">
+    <span class="icon">
+      <i class="fas fa-id-card"></i>
+    </span>
+  </a>
+  <a class="has-text-black" href="/blog">
+    <span class="icon">
+      <i class="fas fa-pen"></i>
+    </span>
+  </a>
 </div>
+
+
+<section class="hero">
+	<div class="hero-body">
+		<h1 class="title">Things I Write<span class="title is-size-3 has-text-grey-dark"> | Cosas que escribo</span></h1>
+
+
+
+
+
+	</div>
+</section>
 
 <div class="container" id="blog-main">
-	<div class="row">
-	<div class="col-xs-12 headline">
-		<h1>Things I Write</h1><h1 class="title_translation"> // Cosas que escribo</h1>
-		
-		
-	</div>
-</div>
-
-	<div class="page-content">
-		<div class="row">
+	<!--<div class="row">
 	<div class="col-md-12 col-xs-12">
+		
+		<div class="col-xs-12 blog-card_container">
+			<a class="blog-card_link" href="https://blog.tudu.pe/2019/03/27/que-aprendimos-con-los-primeros-5000-tudus/">
+				<div class="blog-card">
+					<h1>Qué aprendimos con los primeros 5,000 tudús</h1>
+					<h2>Terminamos el 2018 ligeramente por encima de nuestro pedido número 5,000 — y en el camino, habiendo aprendido muchísimo más sobre nuestros usuarios y sobre los desafíos de implementar un servicio y construir un negocio sin morir en el intento.</h2>
+					<p class="blog-card_footer">27 Mar 2019</p>
+				</div>
+			</a>
+		</div>
+		
+		<div class="col-xs-12 blog-card_container">
+			<a class="blog-card_link" href="https://medium.com/@piscosour/la-cata-de-los-esp%C3%ADritus-425a6703802b">
+				<div class="blog-card">
+					<h1>La cata de los espíritus</h1>
+					<h2>La historia y antropología del alcohol son un universo fascinante. ¿Por qué es que los humanos escogemos, voluntariamente, intoxicarnos con bebidas que literalmente nos envenenan con cada trago?</h2>
+					<p class="blog-card_footer">18 Jun 2018</p>
+				</div>
+			</a>
+		</div>
+		
+		<div class="col-xs-12 blog-card_container">
+			<a class="blog-card_link" href="https://medium.com/@piscosour/la-obra-de-arte-en-la-%C3%A9poca-de-su-reproducibilidad-algor%C3%ADtmica-83196142ec0c">
+				<div class="blog-card">
+					<h1>La obra de arte en la época de su reproducibilidad algorítmica</h1>
+					<h2>Me invitaron a desarrollar un comentario sobre Ghost in the Shell, la película de anime de 1995 dirigida por Mamoru Oshii y basada en el manga del mismo nombre.</h2>
+					<p class="blog-card_footer">11 Mar 2018</p>
+				</div>
+			</a>
+		</div>
+		
+		<div class="col-xs-12 blog-card_container">
+			<a class="blog-card_link" href="https://blog.tudu.pe/2018/02/16/que-aprendimos-con-los-primeros-1000-tudus/">
+				<div class="blog-card">
+					<h1>Qué aprendimos con los primeros 1,000 tudús</h1>
+					<h2>Con ocasión del milésimo pedido, nos pusimos a pensar un poco sobre los aprendizajes más importantes que, quizás, puedan serles útiles a otras personas pasando por viajes similares.</h2>
+					<p class="blog-card_footer">16 Feb 2018</p>
+				</div>
+			</a>
+		</div>
+		
+		<div class="col-xs-12 blog-card_container">
+			<a class="blog-card_link" href="https://medium.com/@piscosour/el-antifujimorismo-es-republicanismo-614793c76dd1">
+				<div class="blog-card">
+					<h1>El antifujimorismo es republicanismo</h1>
+					<h2>Lo que el antifujimorismo reclama es que el Perú esté a la altura de su propia promesa republicana.</h2>
+					<p class="blog-card_footer">03 Jan 2018</p>
+				</div>
+			</a>
+		</div>
+		
+		<div class="col-xs-12 blog-card_container">
+			<a class="blog-card_link" href="https://medium.com/@piscosour/qu%C3%A9-vamos-a-comer-2a7fe12b34db">
+				<div class="blog-card">
+					<h1>¿Qué vamos a comer?</h1>
+					<h2>Las acciones que tomas cuando tienes hambre dicen mucho de tu situación en el mundo.</h2>
+					<p class="blog-card_footer">20 Sep 2017</p>
+				</div>
+			</a>
+		</div>
 		
 		<div class="col-xs-12 blog-card_container">
 			<a class="blog-card_link" href="/una-api-para-nuestra-memoria-colectiva/">
@@ -329,21 +431,472 @@
 		</div>
 		
 	</div>
-</div>
-	</div>
-</div>
+</div>-->
 
-<div class="footer blog-footer">
-	<div class="container">
-		<div class="col-xs-12">
-			<p class="footer-text">Made with love, Jekyll and Bootstrap in Lima, Peru.<span class="footer-text_translation"> // Hecho con amor, Jekyll y Bootstrap en Lima, Perú.</span></p>
+<div class="container">
+	<div class="columns">
+		<div class="column">
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/from-bitcoin-skeptic-to-blockchain-enthusiast-5ad99e39d249">
+							<div class="media-content">
+								<p class="is-size-6"><strong>From Bitcoin Skeptic to Blockchain Enthusiast</strong> | <small>08 Feb 2016</small><br />
+									Trying to go beyond the hype of what's going on in the cryptocurrency space.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/music-as-a-foreground-experience-5ed1d4747cf8">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Music as a Foreground Experience</strong> | <small>10 Jan 2016</small><br />
+									I’ve become one of those people who listen to music from vinyl records.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/craft-colours-and-computation-30e56e56056d#.e6jzh1o1l">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Craft, Colours and Computation</strong> | <small>30 Dec 2015</small><br />
+									Thinking about the relationship between craft and technology by building a code-based loom.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/papers-please-b3204446cbb3">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Papers, Please</strong> | <small>02 Jun 2015</small><br />
+									How might the Blockchain help us redesign fundamental legacy systems, like government-issued IDs and passports?
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="/gdc14-igda-scholars/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>GDC14 with the IGDA Scholars</strong> | <small>13 May 2014</small><br />
+									How I got to attend the 2014 Game Developer Conference through the IGDA Scholars program, and got to observe up close how the global game industry operates from a highly concentrated and intense experience.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="/the-technological-sublime/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>The Technological Sublime</strong> | <small>16 Jan 2014</small><br />
+									Notes on the technological sublime, and how we interpret the connection between social and technological change.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://scifi2scifab.media.mit.edu/2013/12/19/tomorrows-yesterday-today/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Tomorrow's Yesterday, Today</strong> | <small>11 Dec 2013</small><br />
+									The final prototype of AgNES, my project for the MIT Media Lab's Science Fiction to Science Fabrication class.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://scifi2scifab.media.mit.edu/2013/11/27/a-voice-to-keep-you-sane-while-exploring-the-depths-of-space/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>A Voice To Keep You Sane While Exploring The Depths Of Space</strong> | <small>27 Nov 2013</small><br />
+									Designing a simulated emotional core to give AgNES a personality.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="/how-im-writing-my-thesis/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>How I'm Writing My Thesis</strong> | <small>24 Nov 2013</small><br />
+									The writing workflow for my thesis, or how to productively procrastinate with Zotero, LaTeX, and GitHub.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://scifi2scifab.media.mit.edu/2013/10/30/assembling-agnes-or-how-i-read-science-fiction/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Assembling Agnes, Or How I Read Science Fiction</strong> | <small>30 Oct 2013</small><br />
+									The process of putting together and experimental robot companion for deep-space exploration.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="/science-fiction-creative-communities/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Science Fiction, Creative Communities and Prototyping the Future</strong> | <small>29 Oct 2013</small><br />
+									How imagined technologies in science fiction can help us think about the implications of possible futures.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="/game-design-popup-lab-guatemala/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>A Game Design Pop-Up Lab in Guatemala City</strong> | <small>23 Oct 2013</small><br />
+									I've spent the last couple weekends in Guatemala City playing games. Lots of games. All sorts of games. And I'm exhausted.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/whats-interesting-about-creative-communities-e8b7e88ccfc6">
+							<div class="media-content">
+								<p class="is-size-6"><strong>What's Interesting About Creative Communities?</strong> | <small>22 Oct 2013</small><br />
+									Creative communities are pushing us to shift from thinking about product to thinking about process.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://scifi2scifab.media.mit.edu/2013/10/07/meet-agnes/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Meet Agnes</strong> | <small>07 Oct 2013</small><br />
+									Trying to recreate Portal's GLadOs as an experiment in reconstructing science fiction technologies.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/whats-interesting-about-creative-communities-e8b7e88ccfc6">
+							<div class="media-content">
+								<p class="is-size-6"><strong>The Bilingual Web Is Hard, Dude</strong> | <small>19 Sep 2013</small><br />
+									The split personality issues of trying to be online in English and Spanish
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/the-case-for-alternative-infrastructures-45809aed5687">
+							<div class="media-content">
+								<p class="is-size-6"><strong>The Case For Alternative Infrastructures</strong> | <small>09 Sep 2013</small><br />
+									Existing infrastructures are becoming ineffective at supporting the work of many creative communities — so they’re starting to come up with their own.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://gamelab.mit.edu/making-games-in-peru-5">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Making Games in Peru, 5&#58; A Perfect Storm</strong> | <small>09 Sep 2013</small><br />
+									How a perfect storm is brewing for video games to emerge as a digital creative industry in Peru.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://gamelab.mit.edu/making-games-in-peru-4-playing-politics/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Making Games in Peru, 4&#58; Playing Politics</strong> | <small>19 Aug 2013</small><br />
+									How the game development community is devising strategies to gain support from government agencies.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://gamelab.mit.edu/making-games-in-peru-3/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Making Games in Peru, 3&#58; A Game of Risk</strong> | <small>29 Jul 2013</small><br />
+									The hopes, dreams, and motivations of video game developers in Lima, Peru.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://gamelab.mit.edu/making-games-in-peru-2/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Making Games in Peru, 2&#58; Finding a Place in the Global Industry</strong> | <small>08 Jul 2013</small><br />
+									How new technologies, tools, and platforms are opening up opportunities for Peruvian-made video games to make it out into the world.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://gamelab.mit.edu/making-games-in-peru/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Making Games in Peru</strong> | <small>17 Jun 2013</small><br />
+									The first in a series of posts chronicling my thesis field work in Lima researching the Peruvian video game industry.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="http://gamelab.mit.edu/funding-game-projects-notes-from-the-mit-business-in-gaming-conference/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Funding Game Projects&#58; Notes from the MIT Business in Gaming Conference</strong> | <small>29 Apr 2013</small><br />
+									Funding game projects and funding game companies.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+		</div>
+		<div class="column">
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://blog.tudu.pe/2019/03/27/que-aprendimos-con-los-primeros-5000-tudus/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Qué aprendimos con los primeros 5,000 tudús</strong> | <small>27 Mar 2019</small><br />
+									Terminamos el 2018 ligeramente por encima de nuestro pedido número 5,000 — y en el camino, habiendo aprendido muchísimo más sobre nuestros usuarios y sobre los desafíos de implementar un servicio y construir un negocio sin morir en el intento.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/la-cata-de-los-esp%C3%ADritus-425a6703802b">
+							<div class="media-content">
+								<p class="is-size-6"><strong>La cata de los espíritus</strong> | <small>18 Jun 2018</small><br />
+									La historia y antropología del alcohol son un universo fascinante. ¿Por qué es que los humanos escogemos, voluntariamente, intoxicarnos con bebidas que literalmente nos envenenan con cada trago?
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/la-obra-de-arte-en-la-%C3%A9poca-de-su-reproducibilidad-algor%C3%ADtmica-83196142ec0c">
+							<div class="media-content">
+								<p class="is-size-6"><strong>La obra de arte en la época de su reproducibilidad algorítmica</strong> | <small>11 Mar 2018</small><br />
+									Me invitaron a desarrollar un comentario sobre Ghost in the Shell, la película de anime de 1995 dirigida por Mamoru Oshii y basada en el manga del mismo nombre.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://blog.tudu.pe/2018/02/16/que-aprendimos-con-los-primeros-1000-tudus/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Qué aprendimos con los primeros 1,000 tudús</strong> | <small>16 Feb 2018</small><br />
+									Con ocasión del milésimo pedido, nos pusimos a pensar un poco sobre los aprendizajes más importantes que, quizás, puedan serles útiles a otras personas pasando por viajes similares.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/el-antifujimorismo-es-republicanismo-614793c76dd1">
+							<div class="media-content">
+								<p class="is-size-6"><strong>El antifujimorismo es republicanismo</strong> | <small>03 Jan 2018</small><br />
+									Lo que el antifujimorismo reclama es que el Perú esté a la altura de su propia promesa republicana.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="https://medium.com/@piscosour/qu%C3%A9-vamos-a-comer-2a7fe12b34db">
+							<div class="media-content">
+								<p class="is-size-6"><strong>¿Qué vamos a comer?</strong> | <small>20 Sep 2017</small><br />
+									Las acciones que tomas cuando tienes hambre dicen mucho de tu situación en el mundo.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="/una-api-para-nuestra-memoria-colectiva/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Una API para nuestra memoria colectiva</strong> | <small>31 Jul 2016</small><br />
+									Una versión nativa digital de las Conclusiones del Informe Final de la CVR, incluyendo reconocimiento de entidades, una API simple y un frontend web.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="/conclusiones-cvr-json/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Las Conclusiones de la CVR en formato JSON</strong> | <small>09 May 2016</small><br />
+									Convertimos las 171 Conclusiones del Informe Final de la CVR a un formato JSON, para que puedan ser importadas fácilmente a nuevas experiencias digitales.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="/adaptando-informe-final-cvr-mundo-digital/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Adaptando el Informe Final de la CVR al mundo digital</strong> | <small>03 May 2016</small><br />
+									El Informe Final de la CVR no nació como un documento digital. Esta colección de PDFs reordenados y renombrados son un primer paso hacia la construcción de un documento nativo digital.
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+					<article class="media">
+						<a class="blog-card_link" href="/reimaginando-servicios-publicos-digitales-peru/">
+							<div class="media-content">
+								<p class="is-size-6"><strong>Reimaginando los servicios p&uacute;blicos digitales en el Per&uacute;</strong> | <small>21 Feb 2016</small><br />
+									¿Cómo podemos usar tecnologías digitales para mejorar la manera como los servicios públicos interactúan con los ciudadanos?
+								</p>
+							</div>
+						</a>
+					</article>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
 		</div>
 	</div>
 </div>
+</div>
+
 </body>
 
 <!-- New v2 Javascript -->
-<script type="text/javascript" src="/js/marisca-v2.js"></script>
+<!-- <script type="text/javascript" src="/js/marisca-v2.js"></script> -->
 
 
 </html>

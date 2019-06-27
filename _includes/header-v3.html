@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>&#60;piscosour{% if page.title %} | {{ page.title }}{% endif %}&#62;</title>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt }}{% elsif page.subtitle %}{{ page.subtitle }}{% endif %}" />
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" value="summary">
+	<meta name="twitter:site" content="@piscosour">
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}&#60;piscosour id=&quot;Eduardo Marisca&quot;&#62;{% endif %}">
+	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt }}{% elsif page.subtitle %}{{ page.subtitle }}{% else %}&#60;piscosour id=&quot;Eduardo Marisca&quot;&#62;{% endif %}">
+	<meta name="twitter:creator" content="@piscosour">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://marisca.pe{{ page.url }}" />
+	<meta property="og:image" content="http://marisca.pe/files/castor.jpg" />
+	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% elsif page.subtitle %}{{ page.subtitle }} {% endif %}" />
+
+	<!-- Get Bulma from CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+
+	<!-- New v3 stylesheet -->
+	<link href="/css/marisca-v3.css" rel="stylesheet" type="text/css">
+
+	<!-- Fonts for v3: Montserrat + Libre Baskerville-->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+	<!--FontAwesome icons -->
+	<script src="https://kit.fontawesome.com/c4ed666acb.js"></script>
+	
+	<!-- GAnalytics code same as v1 -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-1948247-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+
+<body>

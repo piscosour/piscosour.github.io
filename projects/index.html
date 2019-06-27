@@ -1,44 +1,13 @@
 ---
-layout: portfolio-v2
+layout: portfolio-v3
 title: Things I Do
 title_translation: Cosas que hago
 type: portfolio
 ---
-<div class="row">
-	<div class="col-md-12 col-sm-12 col-xs-12">
-		<div id="english">
-			<p>Design and research projects I’ve been a part of in recent years.</p>
-		</div>
-		<div id="spanish">
-			<p class="paragraph-translation">// Proyectos de investigación y diseño de los que he sido parte en los últimos años.</p>
-		</div>
-	</div>
-</div>
-
-<script type="text/javascript">
-var colors = ["rgb(42, 146, 143)", "rgb(233, 196, 106)", "rgb(244, 162, 97)", "rgb(233, 111, 81)"];
-
-var colorPicker = function() {
-	var pick = colors[Math.floor(Math.random() * colors.length)];
-
-	return pick;
-}
-
-</script>
-
-<div class="row">
-	<div class="col-md-12 col-xs-12">
-	{% for page in site.pages reversed %}
-		{% if page.type == 'project' %}
-		<div class="{% if page.featured %}col-md-8 col-sm-8 col-xs-12{% else %}col-md-4 col-sm-4 col-xs-12{% endif %} portfolio-card_frame">
-			<a href="{{ page.url }}">
-				<div class="portfolio-card_content" style="background-color: {{ ['rgb(42, 146, 143)','rgb(233, 196, 106)','rgb(244, 162, 97)', 'rgb(233, 111, 81)']|random }}">
-					<h1>{{ page.title }}</h1>
-					<h2>{{ page.subtitle }}</h2>
-				</div>
-			</a>
-		</div>
-		{% endif %}
-	{% endfor %}
-	</div>
-</div>
+<ul>
+{% for page in site.pages reversed %}
+	{% if page.type == 'project' %}
+		<li><a href="{{ page.url }}"><strong>{{ page.title }}</strong><br />{{ page.subtitle }}.</a></li>
+	{% endif %}
+{% endfor %}
+</ul>

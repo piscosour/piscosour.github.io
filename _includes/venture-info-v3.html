@@ -1,0 +1,16 @@
+{% if page.date %}
+	<p class="tag">&lt;when&gt;</p>
+	<p class="value">{{ page.date }}</p>
+{% endif %}
+{% if page.location %}
+	<p class="tag">&lt;where&gt;</p>
+	<p class="value">{{ page.location }}</p>
+{% endif %}
+{% if page.team %}
+	<p class="tag">&lt;who&gt;</p>
+	<p class="value">{% for element in page.team %}{{ element }}<br />{% endfor %}</p>
+{% endif %}
+{% if page.partners %}
+	<p class="tag">&lt;support&gt;</p>
+	<p class="value">{% for element in page.partners %}{{ element }}<br />{% endfor %}</p>
+{% endif %}

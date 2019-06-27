@@ -1,11 +1,12 @@
 ---
-layout: article-v2
+layout: article-v3
 title: Las Conclusiones de la CVR en formato JSON
 lang: es
 type: article
 excerpt: Convertimos las 171 Conclusiones del Informe Final de la CVR a un formato JSON, para que puedan ser importadas fácilmente a nuevas experiencias digitales.
 tags: [cvr, informe final, derechos humanos, analisis computacional, peru, conclusiones, json, regex]
 permalink: conclusiones-cvr-json/
+author: Eduardo Marisca
 ---
 Hace unos días compartí <a href="http://marisca.pe/adaptando-informe-final-cvr-mundo-digital/">un poco del trabajo que he estado haciendo para convertir el Informe Final de la CVR en un documento más amigable al mundo digital</a> -- un trabajo que en sí construye sobre <a href="http://www.mutaciones.pe/2013/05/13/una-lectura-computacional-del-informe-final-de-la-cvr/">un primer esfuerzo hace unos años experimentando con el texto del informe y análisis del lenguaje natural</a>. Ahora he querido trabajar un poco más en detalle con una sección en particular: las Conclusiones, que representan un resumen general del informe y brindan un panorama sumamente completo de las causas, desarrollo y consecuencias de la violencia interna en el Perú de los últimos años.
 

@@ -1,0 +1,508 @@
+/* marisca.pe custom styles */
+/* v3 -- January 2019 */
+
+
+/* Typography for home page */
+
+h1.home {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 120px;
+	text-align: center;
+}
+
+p.home {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	color: black;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* General typography */
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 24px;
+	color: black;
+	line-height: 32px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
+	color: black;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+
+p.tag {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: black;
+	line-height: 18px;
+	text-align: center;
+}
+
+p.value {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	color: black;
+	line-height: 18px;	
+	text-align: center;
+}
+
+blockquote {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+blockquote.p {
+	color: #808080;
+	font-size: 0.8em;
+}
+
+/* Image clipping for profile pics */
+
+img.headshot {
+	width: 20%;
+	clip-path: circle(85px at center);
+}
+
+.headshot-container {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* home-nav block includes the main navigation links for the homepage only */
+
+.home-nav {
+	margin-top: 15vh;
+}
+
+.home-nav a {
+	color: #FFFFFF;
+}
+
+.home-nav .home-nav_link {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	color: #FFFFFF;
+	line-height: 48px;
+}
+
+.home-nav .home-nav_link_translation{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #9B9B9B;
+	line-height: 32px;
+}
+
+
+/* header block contains the top nav as header-nav */
+
+.header-nav {
+	height: 45px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0);
+}
+
+.header-nav a {
+	text-decoration: none;
+}
+
+.header-nav a:hover {
+	color: #9B9B9B;
+}
+
+/* footer block contains footer content, duh. at the bottom of the page, white background on home, coloured background elsewhere. */
+
+.footer {
+	width: 100%;
+	height: 45px;
+	padding: 10px;
+	margin-top: 15vh;
+}
+.footer .footer-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.footer .footer-text_translation {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #9B9B9B;
+	line-height: 20px;
+}
+
+/* Specific footer styles to control the background color */
+
+.home-footer {
+	position: relative;
+	bottom: 0;
+	color: #FFFFFF;
+}
+
+.page-footer {
+	background-color: #2A928F;
+}
+
+.project-footer {
+	background-color: #F4A261;
+}
+
+.blog-footer {
+	background-color: #E9C46A;
+}
+
+/* page-content block... you know where this is going... */
+
+.page-content {
+	margin-top: 10vh;
+}
+
+.page-content h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	color: #000000;
+	line-height: 57px;
+}
+
+.page-content h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #000000;
+	line-height: 48px;
+}
+
+.page-content h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: #000000;
+	line-height: 38px;
+}
+
+.page-content h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #000000;
+	line-height: 29px;
+}
+
+.page-content p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	color: #000000;
+	line-height: 32px;
+}
+
+.page-content p.paragraph-translation {
+	font-size: 16px;
+	color: #9B9B9B;
+	line-height: 28px;
+}
+
+.page-content a {
+	color: #2A928F;
+	text-decoration: underline;
+}
+
+.page-content a:hover {
+	color: #F4A261;
+}
+
+.page-content ul li, ol li {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	color: #000000;
+	line-height: 32px;
+}
+
+.page-blocks {
+	margin-top: 50px;
+}
+
+.page-blocks p {
+	font-size: 14px;
+	color: #000000;
+	line-height: 20px;
+}
+
+.page-blocks_socialmedia {
+	height: 40px;
+	width: auto;
+	margin-right: 20px;
+}
+
+
+/* project resources elements sit at the bottom of every project page */
+
+.project-resources {
+	padding: 20px;
+	text-align: center;
+}
+
+.project-resources p.project-resources_icon {
+	font-size: 80px;
+	margin-bottom: 20px;
+}
+
+.project-resources_block {
+	padding: 20px;
+	min-height: 250px;
+}
+
+.project-resources_block:hover {
+	background-color: #F4A261;
+	color: white;
+}
+
+.project-resources_block a {
+	display: block;
+	text-decoration: none;
+}
+
+.project-photos,
+.project-video {
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.project-photos_block {
+	padding: 20px;
+	height: 350px;
+	overflow: hidden;
+}
+
+.project-photos_picture {
+	width: 100%;
+	height:auto;
+	object-fit: cover;
+}
+
+.project-video_embed {
+	width: 100%;
+	height: 100%;
+}
+
+/* box with project details */
+
+.project-data_container {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.project-data_box {
+	padding: 20px;
+	background-color: rgb(200,200,200)
+}
+
+.project-data_box h3 {
+	font-size: 130%;
+	line-height: 120%;
+	margin-top: 0;
+}
+
+.project-data_box h4 {
+	font-size: 100%;
+	line-height: 120%;
+}
+
+.project-data_box p {
+	font-size: 90%;
+	line-height: 130%;
+}
+
+/* styles related to the portfolio gallery */
+
+.portfolio-card_frame {
+	padding: 20px;
+}
+
+.portfolio-card_frame a {
+	display: block;
+	text-decoration: none;
+}
+
+.portfolio-card_content {
+	padding: 15px;
+	background-color: #F4A261;
+	min-height: 250px;
+}
+
+.portfolio-card_content:hover {
+	background-color: #E76F51;
+}
+
+.portfolio-card_content h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #000000;
+	line-height: 36px;
+	margin-top: 0;
+}
+
+.portfolio-card_content h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #000000;
+	line-height: 24px;
+}
+
+ /* styles related to the blog */
+
+.blog-card {
+	border: 1px solid black;
+	min-height: 200px;
+	padding: 20px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.blog-card:hover {
+	background-color: #9B9B9B;
+}
+
+.blog-card_container a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.blog-card h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #000000;
+	line-height: 36px;
+	margin-top: 0;
+}
+
+.blog-card h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #000000;
+	line-height: 24px;
+}
+
+.blog-card p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 18px;
+}
+
+.blog-card p.blog-card_footer {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 10px;
+}
+
+.blog-card-link {
+	text-decoration: none;
+}
+
+.blog-card-link:hover {
+	text-decoration: underline;
+}
+
+/* article layout styles */
+
+#article-main h2 {
+	margin-top: 50px;
+}
+
+.article-header {
+	background-color: #264653;
+	color: white;
+	min-height: 300px;
+	margin-bottom: 80px;
+	padding-bottom: 20px;
+}
+
+.article-header p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.article-image {
+	width: 100%;
+	height: auto;
+}
+
+.article-image_container {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.article-image_container p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #9B9B9B;
+	line-height: 17px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.about-cartoon-pic {
+	width: 15rem;
+	height: auto;
+}
+
+.about-connect {
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+/* Media queries */
+
+/* Hide footer div on small screens (it renders poorly + it's unnecessary) */
+
+@media screen and (min-width: 0px) and (max-width: 640px) {
+	.footer { 
+		display: none; 
+	}
+}
+
+/* hideo video background for home page on smaller screens */
+
+@media screen and (max-device-width: 640px) {
+	html {
+		background-color: #000000;
+	}
+
+	#bgvid {
+		display: none;
+	}
+}

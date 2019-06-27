@@ -1,11 +1,12 @@
 ---
-layout: article-v2
+layout: article-v3
 title: Adaptando el Informe Final de la CVR al mundo digital
 lang: es
 type: article
 excerpt: El Informe Final de la CVR no nació como un documento digital. Esta colección de PDFs reordenados y renombrados son un primer paso hacia la construcción de un documento nativo digital.
 tags: [cvr, informe final, derechos humanos, analisis computacional, peru]
 permalink: adaptando-informe-final-cvr-mundo-digital/
+author: Eduardo Marisca
 ---
 El <a href="http://www.cverdad.org.pe/ifinal/index.php">Informe Final de la Comisión de la Verdad y la Reconciliación</a>, finalizado y publicado el 2003, no fue pensado como un documento digital. El documento abarca nueve tomos con cientos de secciones y capítulos con el que es quizás el análisis más pormenorizado de la historia peruana reciente. Por lo mismo, es sumamente difícil de navegar y consumir: un documento tan grande y ambicioso, que presenta una invitación importantísima a la reflexión sobre la historia y la discusión sobre nuestros problemas como nación, representa un desafío enorme.
 
