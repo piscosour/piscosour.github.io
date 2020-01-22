@@ -442,7 +442,6 @@ img.headshot {
 #article-main {
 	padding-left: 5rem;
 	padding-right: 5rem;
-	margin-bottom: 10rem;
 }
 
 #article-main h2 {
@@ -490,6 +489,13 @@ img.headshot {
 .about-connect {
 	margin-top: 2rem;
 	margin-bottom: 5rem;
+}
+
+#bio-card {
+	margin-top: 5rem;
+	margin-left: 15rem;
+	margin-right: 15rem;
+	margin-bottom: 10rem;
 }
 /* Media queries */
 
