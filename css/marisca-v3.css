@@ -439,6 +439,11 @@ img.headshot {
 
 /* article layout styles */
 
+#article-main {
+	padding-left,
+	padding-right: 20%;
+}
+
 #article-main h2 {
 	margin-top: 50px;
 }
