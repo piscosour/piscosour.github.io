@@ -96,6 +96,8 @@ img.headshot {
 	margin-bottom: 20px;
 }
 
+/* I need to make sure the right version of this file is uploaded. */
+
 /* home-nav block includes the main navigation links for the homepage only */
 
 .home-nav {
@@ -497,6 +499,7 @@ img.headshot {
 	margin-right: 15rem;
 	margin-bottom: 10rem;
 }
+
 /* Media queries */
 
 /* Hide footer div on small screens (it renders poorly + it's unnecessary) */
