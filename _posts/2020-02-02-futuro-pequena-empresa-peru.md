@@ -3,7 +3,7 @@ layout: article-v3
 title: ¿Cómo se ve el futuro de la pequeña empresa en el Perú?
 lang: es
 type: article
-excerpt: En los últimos tres años, me he involucrado activamente en la creación de dos negocios. Existe una lógica por la cual he escogido involucrarme con ellos: una tesis de inversión que apunta hacia el futuro del trabajo y de la pequeña y mediana empresa en el Perú, y que me interesa compartir un poco más en detalle (especialmente porque, si estoy equivocado, agradecería enormemente que alguien me lo diga).
+excerpt: En los últimos tres años, me he involucrado activamente en la creación de dos negocios. Existe una lógica por la cual he escogido involucrarme con ellos, una tesis de inversión que apunta hacia el futuro del trabajo y de la pequeña y mediana empresa en el Perú, y que me interesa compartir un poco más en detalle (especialmente porque, si estoy equivocado, agradecería enormemente que alguien me lo diga).
 tags: [mit, inteligencia artificial, machine learning, transformación digital]
 permalink: futuro-pequena-empresa-peru/
 author: Eduardo Marisca
