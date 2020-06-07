@@ -500,6 +500,11 @@ img.headshot {
 	margin-bottom: 10rem;
 }
 
+.video-embed {
+	height: 315;
+	width: 560;
+}
+
 /* Media queries */
 
 /* Hide footer div on small screens (it renders poorly + it's unnecessary) */

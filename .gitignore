@@ -2,3 +2,5 @@ _site/*
 _site/2013/09/09/making-games-in-peru-5.html
 _site/
 _site/blog/index.html
+.jekyll-cache/
+.jekyll-cache/*
