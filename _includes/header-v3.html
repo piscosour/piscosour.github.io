@@ -15,7 +15,7 @@
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content="http://marisca.pe{{ page.url }}" />
-	<meta property="og:image" content="http://marisca.pe/files/castor.jpg" />
+	<meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image }}{% else %}http://marisca.pe/files/castor.jpg{% endif %}" />
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% elsif page.subtitle %}{{ page.subtitle }} {% endif %}" />
 
 	<!-- Get Bulma from CDN -->

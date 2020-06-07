@@ -6,6 +6,7 @@ type: article
 excerpt: When faced with the design of systems, there are many things that can go wrong. The best tool in your kit when designing for a systemic problem is experimentation. As usual, by releasing things in bits and pieces and learning from small, local interactions, you can gather a lot of data to inform iteration and deployment at scale. But systems are weird. You can’t really experiment with them all at once, and sometimes experimenting with them introduces new constraints and challenges that are hard to get around.
 tags: [design, experimentation, systems design, systems theory, complexity, emergence]
 permalink: how-to-experiment-with-systems/
+featured_image: "/files/img/28dayslayer.jpg"
 author: Eduardo Marisca
 ---
 In my life playing around with design, I’ve often stumbled upon the challenge of designing systems: having to imagine or transform gnarly entanglements which often feel too large and too complex to actually accomplish anything meaningful without dedicating years of your life to being absorbed by a very specific problem. Education interventions are a great example of this: everyone involved with them has been working on the same or similar problems for years and speak from a place of expertise, often to highlight how many of the new things you can imagine can’t get done. 
