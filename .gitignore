@@ -4,3 +4,4 @@ _site/
 _site/blog/index.html
 .jekyll-cache/
 .jekyll-cache/*
+_site/blog/index.html

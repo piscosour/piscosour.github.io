@@ -510,6 +510,14 @@ img.headshot {
 	margin-bottom: 40px;
 }
 
+.section-break {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 /* Media queries */
 
 /* Hide footer div on small screens (it renders poorly + it's unnecessary) */
