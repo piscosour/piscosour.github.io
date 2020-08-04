@@ -3,7 +3,7 @@ layout: article-v3
 title: Crónica de una aventura
 lang: es
 type: article
-excerpt: Nosotros quisimos construir en Offsite un mundo. Ese mundo empezó a existir a principios del año pasado, cuando mi papá me dijo una mañana de enero para tomarnos un café. Recuerdo que hacía calor y que nos juntamos en un café de Miraflores como se solía hacer antes en el Viejo Mundo, temprano por la mañana. Era un café pequeño y sencillo cuyo nombre no recuerdo. “Quiero poner un negocio como éste”, recuerdo que dijo mi papá.
+excerpt: Nosotros quisimos construir en Offsite un mundo. Pero la biología, la economía y la realidad discreparon.
 permalink: cronica-de-una-aventura/
 featured_image: "/files/img/offsite-fachada.jpg"
 author: Eduardo Marisca
